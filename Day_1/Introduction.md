@@ -1,6 +1,6 @@
 # Introduction
 
-Discussed about :
+##### Discussed about :
 
     1. Console IO Methods
     2. Concatination
@@ -10,7 +10,7 @@ Discussed about :
 
 ##### Example Code
 
-```
+```c#
 using System;
 using System.Collections.Generic;
 using System.Linq;
