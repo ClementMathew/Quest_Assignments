@@ -1,12 +1,12 @@
 # Introduction
 
----
-
 Discussed about :
 
     1. Console IO Methods
     2. Concatination
     3. Casing Types
+
+---
 
 ```
 using System;
