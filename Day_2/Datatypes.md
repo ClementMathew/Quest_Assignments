@@ -1,5 +1,15 @@
 # Datatypes
 
+##### Discussed about :
+
+    1. Explicit and Implicit Conversion
+    2. Nullable and Nonnullable Datatypes
+    3. Signed and Unsigned Datatypes
+
+---
+
+##### Example Code :
+
 ```c#
 
 using System;
