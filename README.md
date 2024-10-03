@@ -1,1 +1,1 @@
-**Quest Global Training - C# and .NET**
+**C# and .NET by Quest**
