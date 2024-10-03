@@ -1,5 +1,11 @@
 # Introduction
 
+Discussed about :
+
+    1. Console IO Methods
+    2. Concatination
+    3. Casing Types
+
 ```
 using System;
 using System.Collections.Generic;
@@ -13,7 +19,7 @@ internal class Basics
 {
 static void Main(string[] args)
 {
-// New line printing.
+            // New line printing.
 
             Console.WriteLine(1);
             Console.WriteLine(true);
