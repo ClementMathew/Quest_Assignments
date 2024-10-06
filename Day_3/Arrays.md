@@ -1,171 +1,97 @@
-# Datatypes
+# Arrays
 
 ##### Discussed about :
 
-    1. Explicit and Implicit Conversion
-    2. Nullable and Nonnullable Datatypes
-    3. Signed and Unsigned Datatypes
+    1. Reading and printing array value.
+    2. Int and string type arrays.
+    3. Null check operator
+    4. Array resizing.
 
 ---
 
 ##### Example Code :
 
 ```c#
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Datatypes
+namespace Arrays
 {
-    internal class Datatypes
+    internal class Arrays
     {
         static void Main(string[] args)
         {
-            // Parsing to int using Explicit conversion.
 
-            Console.WriteLine("Enter the first number : ");
-            int n1 = int.Parse(Console.ReadLine());
+            // Array datatype.
 
-            Console.WriteLine("Enter the second number : ");
-            int n2 = int.Parse(Console.ReadLine());
+            int[] array = new int[10];
+            Console.WriteLine($"Nonnullable array first element : {array[0]}");
 
-            Console.WriteLine($"Sum of numbers {n1} and {n2} is {n1 + n2} \n");
+            int?[] nullableArray = new int?[10];
+            Console.WriteLine($"Nullable array first element : {nullableArray[0]}");
 
-            // Implicit conversion.
+            int[] numbers = { 2, 5, 6, 7, 8 };
+            Console.WriteLine($"Initialized array third element : {numbers[2]} \n");
 
-            int i = 10;
-            long l = i;
-            Console.WriteLine($"Long 'l' converted from int 'i' is {l}");
 
-            char c = 'A';
-            int ic = c;
-            Console.WriteLine($"Int 'ic' converted from char 'c' is {ic} \n");
+            // Read to array and print the values.
 
-            // Datatypes nullable and not nullable.
+            int[] myArray = new int[5];
 
-            int x = 1;
-            int? y = null;
+            Console.WriteLine("Enter the values : ");
 
-            Console.WriteLine($"Not nullable value : {x}");
-            Console.WriteLine($"Nullable value : {y} \n");
+            for (int i = 0; i < 5; i++)
+            {
+                myArray[i] = int.Parse(Console.ReadLine());
+            }
 
-            // Signed int datatype.
+            Console.WriteLine("The values are : ");
 
-            int displacement = -23455;
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write(myArray[i] + " ");
+            }
 
-            Console.WriteLine($"Signed int : {displacement}");
-            Console.WriteLine($"Signed int max value : {int.MaxValue}");
-            Console.WriteLine($"Signed int min value : {int.MinValue} \n");
+            Console.WriteLine("\nBy another method the values are : ");
+            Console.WriteLine(string.Join(" ", myArray));
 
-            // Signed long datatype.
 
-            long displacementLong = -2000000000;
+            // String array.
 
-            Console.WriteLine($"Signed long : {displacementLong}");
-            Console.WriteLine($"Signed long max value : {long.MaxValue}");
-            Console.WriteLine($"Signed long min value : {long.MinValue} \n");
+            string[] nullString = new string[3];
+            Console.WriteLine($"\nUninitialized null string array first element : {nullString[0]}");
 
-            // Unsigned int datatype.
+            string[] nullStringTwo = { null, null, null };
+            Console.WriteLine($"Initialized null string array first element : {nullStringTwo[0]}");
 
-            uint distance = 23559;
+            string[] emptyString = new string[3] { "", "", "" };
+            Console.WriteLine($"Empty string array first element : {emptyString[0]}");
 
-            Console.WriteLine($"Unsigned int : {distance}");
-            Console.WriteLine($"Unsigned int max value : {uint.MaxValue}");
-            Console.WriteLine($"Unsigned int min value : {uint.MinValue} \n");
+            string[] names = new string[3] { "anu", "binu", "cinu" };
+            Console.WriteLine($"Initialized string array first element in uppercase : {names[0].ToUpper()}");
 
-            // Unsigned long datatype.
+            // Null check operator.
 
-            ulong distanceLong = 2000000000;
+            Console.WriteLine($"\nNull check operator in string array functions : {nullString[0]?.ToLower()}");
 
-            Console.WriteLine($"Unsigned long : {distanceLong}");
-            Console.WriteLine($"Unsigned long max value : {ulong.MaxValue}");
-            Console.WriteLine($"Unsigned long min value : {ulong.MinValue} \n");
 
-            // Byte datatype.
+            // Array resizing.
 
-            byte valueByte = 1;
+            int[] resizableArray = new int[3];
+            resizableArray[0] = 1;
+            resizableArray[1] = 2;
+            resizableArray[2] = 3;
 
-            Console.WriteLine($"Byte is unsigned by default : {valueByte}");
-            Console.WriteLine($"Byte max value : {byte.MaxValue}");
-            Console.WriteLine($"Byte min value : {byte.MinValue} \n");
+            Console.WriteLine($"Array length before resizing : {resizableArray.Length}");
+            Array.Resize(ref resizableArray, resizableArray.Length * 2);
+            Console.WriteLine($"Resized array length : {resizableArray.Length} \n");
 
-            // Sbyte datatype.
-
-            sbyte signedByte = -1;
-
-            Console.WriteLine($"Signed byte : {signedByte}");
-            Console.WriteLine($"Signed byte max value : {sbyte.MaxValue}");
-            Console.WriteLine($"Signed byte min value : {sbyte.MinValue} \n");
-
-            // Short datatype.
-
-            short signedShort = -155;
-
-            Console.WriteLine($"Signed short : {signedShort}");
-            Console.WriteLine($"Signed short max value : {short.MaxValue}");
-            Console.WriteLine($"Signed short min value : {short.MinValue} \n");
-
-            // Unsigned short datatype.
-
-            ushort unSignedShort = 155;
-
-            Console.WriteLine($"Unsigned short : {unSignedShort}");
-            Console.WriteLine($"Unsigned short max value : {ushort.MaxValue}");
-            Console.WriteLine($"Unsigned short min value : {ushort.MinValue} \n");
-
-            // Double datatype.
-
-            double doubleValue = 1556373.567;
-
-            Console.WriteLine($"Double datatype value : {doubleValue}");
-            Console.WriteLine($"Double max value : {double.MaxValue}");
-            Console.WriteLine($"Double min value : {double.MinValue} \n");
-
-            // Float datatype.
-
-            float floatValue = 1556.567F;
-
-            Console.WriteLine($"Float datatype value : {floatValue}");
-            Console.WriteLine($"Float max value : {float.MaxValue}");
-            Console.WriteLine($"Float min value : {float.MinValue} \n");
-
-            // Decimal datatype.
-
-            decimal decimalValue = 15567643874.567763498M;
-
-            Console.WriteLine($"Decimal datatype value : {decimalValue}");
-            Console.WriteLine($"Decimal max value : {decimal.MaxValue}");
-            Console.WriteLine($"Decimal min value : {decimal.MinValue} \n");
-
-            // Bool datatype.
-
-            bool boolValue = false;
-
-            Console.WriteLine($"Boolean datatype value : {boolValue} \n");
-
-            // Char datatype.
-
-            char letter = 'a';
-
-            Console.WriteLine($"Char datatype value : {letter} \n");
-
-            // Object datatype.
-
-            object objValue1 = 1;
-            object objValue2 = 1.1;
-            object objValue3 = 'a';
-            object objValue4 = "Hai";
-
-            Console.WriteLine($"Object accepting integer : {objValue1}");
-            Console.WriteLine($"Object accepting double : {objValue2}");
-            Console.WriteLine($"Object accepting char : {objValue3}");
-            Console.WriteLine($"Object accepting string : {objValue4} \n");
+            resizableArray[3] = 4;
         }
     }
 }
-
 
 ```
