@@ -6,7 +6,7 @@ Print the vowels from an input string.
 
 ---
 
-##### Example Code :
+##### Code :
 
 ```c#
 
