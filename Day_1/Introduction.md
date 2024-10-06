@@ -20,10 +20,10 @@ using System.Threading.Tasks;
 
 namespace Basics
 {
-internal class Basics
-{
-static void Main(string[] args)
-{
+    internal class Basics
+    {
+        static void Main(string[] args)
+        {
             // New line printing.
 
             Console.WriteLine(1);
@@ -85,7 +85,6 @@ static void Main(string[] args)
             Console.WriteLine($"Sum is {num1 + num2}");
         }
     }
-
 }
 
 ```

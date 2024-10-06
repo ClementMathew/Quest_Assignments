@@ -2,7 +2,7 @@
 
 ##### Question :
 
-    Convert the input string to upper case and replace the spaces in the input to '_'
+    Convert the input string to upper case and replace the spaces in the input to '_'.
 
 ---
 
