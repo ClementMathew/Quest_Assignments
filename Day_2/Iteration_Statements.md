@@ -46,6 +46,19 @@ namespace Iteration_Statements
                 n++;
             }
             Console.WriteLine("\n");
+
+
+            // Foreach.
+
+            var sb = new StringBuilder();
+            string[] names = { "Clement", "Mathew", "Sheba" };
+
+            for (int i = 0; i < names.Length; i++)
+            {
+                sb.AppendLine($"{names[i]} is {i} years old.");
+            }
+            Console.WriteLine(sb.ToString());
+        }
     }
 }
 
