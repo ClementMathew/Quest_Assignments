@@ -1,6 +1,6 @@
 # Introduction
 
-##### Discussed about :
+#### Discussed about :
 
     1. Console IO Methods
     2. Concatination
@@ -8,7 +8,7 @@
 
 ---
 
-##### Example Code :
+#### Example Code :
 
 ```c#
 

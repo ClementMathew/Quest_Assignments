@@ -1,12 +1,12 @@
 # List Collection
 
-##### Discussed about :
+#### Discussed about :
 
     List functions like Add, AddRange, Remove and RemoveAt.
 
 ---
 
-##### Example Code :
+#### Example Code :
 
 ```c#
 

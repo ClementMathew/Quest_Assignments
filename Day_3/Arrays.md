@@ -1,6 +1,6 @@
 # Arrays
 
-##### Discussed about :
+#### Discussed about :
 
     1. Reading and printing array value.
     2. Int and string type arrays.
@@ -9,7 +9,7 @@
 
 ---
 
-##### Example Code :
+#### Example Code :
 
 ```c#
 using System;

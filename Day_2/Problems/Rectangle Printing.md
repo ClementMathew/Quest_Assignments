@@ -1,12 +1,12 @@
 # Rectangle Printing
 
-##### Question :
+#### Question :
 
 Print a rectangle using '\*' on the borders by reading the height of the rectangle from user.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

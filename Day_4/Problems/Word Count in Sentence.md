@@ -1,12 +1,12 @@
 # Word Count in Sentence
 
-##### Question :
+#### Question :
 
     Count the number of same words in the input string.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

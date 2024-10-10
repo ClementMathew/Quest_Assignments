@@ -1,12 +1,12 @@
 # Sum of Two Numbers
 
-##### Question :
+#### Question :
 
     Calculate the sum of two numbers using function.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

@@ -1,6 +1,6 @@
 # Object and Type
 
-##### Discussed about :
+#### Discussed about :
 
     1. Object datatype
     2. Gettype and typeof functions
@@ -8,7 +8,7 @@
 
 ---
 
-##### Example Code :
+#### Example Code :
 
 ```c#
 

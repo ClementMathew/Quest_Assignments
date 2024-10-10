@@ -1,6 +1,6 @@
 # Datatypes
 
-##### Discussed about :
+#### Discussed about :
 
     1. Explicit and Implicit Conversion
     2. Nullable and Nonnullable Datatypes
@@ -8,7 +8,7 @@
 
 ---
 
-##### Example Code :
+#### Example Code :
 
 ```c#
 

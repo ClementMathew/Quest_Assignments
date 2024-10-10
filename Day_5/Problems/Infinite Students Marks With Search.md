@@ -1,12 +1,12 @@
 # Infinite Students Marks With Search
 
-##### Question :
+#### Question :
 
     User wants to store the marks of 3 subjects until the user enters 'q' to exit. When user enters 'q' display the mark of subjects student wise and also enables a search option to find the id and its values.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

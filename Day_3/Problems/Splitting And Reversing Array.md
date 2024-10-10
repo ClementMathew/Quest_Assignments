@@ -1,12 +1,12 @@
 # Splitting And Reversing Array
 
-##### Question :
+#### Question :
 
     Split in the middle of an array and reverse both arrays and join.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

@@ -1,13 +1,13 @@
 # Datetime
 
-##### Discussed about :
+#### Discussed about :
 
     1. Date time functions
     2. Formating date
 
 ---
 
-##### Example Code :
+#### Example Code :
 
 ```c#
 
@@ -38,6 +38,16 @@ namespace Datetime
             Console.WriteLine($"Minute : {dt.Minute}");
             Console.WriteLine($"Second : {dt.Second}");
             Console.WriteLine($"MilliSecond :{dt.Millisecond} \n");
+
+            // AddDays
+
+            var tendaysFromNow = dt.AddDays(10);
+            Console.WriteLine($"Ten days added : {tendaysFromNow}");
+
+            // AddHours
+
+            var tenDaysAndTwentyHoursFromNow = dt.AddHours(20).AddDays(10);
+            Console.WriteLine($"Ten days and twenty hours added : {tenDaysAndTwentyHoursFromNow} \n");
 
             // Formatting date and time
 

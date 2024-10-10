@@ -1,12 +1,12 @@
 # Palindrome Check
 
-##### Question :
+#### Question :
 
     Check the input string is palindrome or not.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

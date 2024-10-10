@@ -1,12 +1,12 @@
 # Array Functions
 
-##### Discussed about :
+#### Discussed about :
 
     Different built-in functions for array.
 
 ---
 
-##### Exapmle Code :
+#### Exapmle Code :
 
 ```c#
 

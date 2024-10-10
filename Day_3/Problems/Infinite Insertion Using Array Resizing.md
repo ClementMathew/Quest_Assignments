@@ -1,6 +1,6 @@
 # Infinite Insertion Using Array Resizing
 
-##### Question :
+#### Question :
 
     Read values from user until user says to exit and print the values when exists.
 
@@ -8,7 +8,7 @@
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

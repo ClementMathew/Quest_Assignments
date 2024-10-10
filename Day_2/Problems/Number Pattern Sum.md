@@ -1,12 +1,12 @@
 # Number Pattern Sum
 
-##### Question :
+#### Question :
 
     Calculate the sum of numbers in the input string pattern.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

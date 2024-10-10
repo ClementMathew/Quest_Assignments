@@ -1,13 +1,13 @@
 # Methods of Combining Strings
 
-##### Discussed about :
+#### Discussed about :
 
     1. String builder
     2. Six different methods to combine strings like Join, Concat, Format...
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

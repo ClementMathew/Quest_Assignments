@@ -1,12 +1,12 @@
 # Persons Search
 
-##### Question :
+#### Question :
 
     Read the name of persons from user and search for details in the array.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

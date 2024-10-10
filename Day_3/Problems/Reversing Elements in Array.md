@@ -1,12 +1,12 @@
 # Reversing Elements in Array
 
-##### Question :
+#### Question :
 
     Read an array from user and reverse the array without using inbuilt functions.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

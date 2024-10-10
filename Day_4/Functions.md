@@ -1,6 +1,6 @@
 # Functions
 
-##### Discussed about :
+#### Discussed about :
 
     1. User defined function.
     2. Passing parameters to function.
@@ -10,7 +10,7 @@
 
 ---
 
-##### Example Code :
+#### Example Code :
 
 ```c#
 

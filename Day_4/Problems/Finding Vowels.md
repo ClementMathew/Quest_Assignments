@@ -1,12 +1,12 @@
 # Finding Vowels
 
-##### Question :
+#### Question :
 
 Print the vowels from an input string.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

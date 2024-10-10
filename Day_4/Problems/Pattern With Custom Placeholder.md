@@ -1,12 +1,12 @@
 # Pattern With Custom Placeholder
 
-##### Question :
+#### Question :
 
     Print a pattern of numbers with custom placeholder.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

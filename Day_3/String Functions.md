@@ -1,12 +1,12 @@
 # String Functions
 
-##### Discussed about :
+#### Discussed about :
 
     Different built-in functions for string.
 
 ---
 
-##### Example Code :
+#### Example Code :
 
 ```c#
 

@@ -1,12 +1,12 @@
 # List Inside List
 
-##### Question :
+#### Question :
 
     Store the marks of 3 subjects of 2 students using list in list.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 

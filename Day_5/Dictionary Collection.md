@@ -1,12 +1,12 @@
 # Dictionary Collection
 
-##### Discussed about :
+#### Discussed about :
 
     Dictionary functions like Add, Remove and ContainsKey.
 
 ---
 
-##### Example Code :
+#### Example Code :
 
 ```c#
 

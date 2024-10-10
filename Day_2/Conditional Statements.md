@@ -1,13 +1,13 @@
 # Conditional Statements
 
-##### Discussed about :
+#### Discussed about :
 
     1. if-else Conditional Statements
     2. switch-case Conditional Statements
 
 ---
 
-##### Example Code :
+#### Example Code :
 
 ```c#
 

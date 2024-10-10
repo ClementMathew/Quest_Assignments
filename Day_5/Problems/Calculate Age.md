@@ -1,12 +1,12 @@
 # Calculate Age
 
-##### Question :
+#### Question :
 
     Calculate the age of a person.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 
@@ -32,6 +32,13 @@ namespace Calculate_Age
             DateTime dtt = DateTime.Now;
 
             int age = dtt.Year - Date.Year;
+
+            // Adjust age if the birthday hasn't occurred yet this year.
+
+            if (DateTime.Now < Date.AddYears(age))
+            {
+                age--;
+            }
 
             Console.WriteLine($"Your age is : {age}");
 

@@ -1,12 +1,12 @@
 # Digit to Words
 
-##### Question :
+#### Question :
 
     Convert the digit in the input string to equivalent words.
 
 ---
 
-##### Code :
+#### Code :
 
 ```c#
 
