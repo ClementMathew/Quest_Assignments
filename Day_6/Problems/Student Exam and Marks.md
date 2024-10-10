@@ -1,3 +1,13 @@
+# Student Exam and Marks
+
+#### Discussed about :
+
+    Adding Foreign Keys constraints to tables.
+
+---
+
+#### Example Code :
+
 ```sql
 
 -- Creating Student Table --
@@ -73,9 +83,20 @@ VALUES
 
 ```
 
+---
+
+#### Question :
+
+    1. Retrieve the marks and student and exam details fully.
+    2. If a subject name is given fetch all the marks of that subject by students.
+    3. If student id is given fetch all the exams of that students.
+
+---
+
+#### Code :
+
 ```sql
 
-﻿
 -- print all the necessary details from all tables --
 
 select FirstName,LastName,Gender,email,SubjectName,SubjectCode,MinMark,Mark
