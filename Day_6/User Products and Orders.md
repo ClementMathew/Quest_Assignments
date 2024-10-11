@@ -2,14 +2,16 @@
 
 #### Question :
 
-    1. Creating User Table
-    2. Alter table to add Constraints.
-    3. Create index
-    4. Add Check Constraints
+    1. Create user table.
+    2. Alter table to add constraints.
+    3. Create index.
+    4. Add check constraints.
 
 #### Code :
 
 ```sql
+
+-- Creating User table --
 
 CREATE TABLE users(
 	id BIGINT IDENTITY,
