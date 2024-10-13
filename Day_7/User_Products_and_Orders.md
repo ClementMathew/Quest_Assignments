@@ -2,8 +2,10 @@
 
 #### Question :
 
-    1. Create products table.
-    2. Create order table.
+    1. Create products and orders table.
+    2. Create self refering table.
+    3. Perform joins to retrieve necessary datas.
+    4. Create view to see all orders.
 
 #### Code :
 
@@ -24,122 +26,129 @@ CREATE TABLE products(
 
 -- Creating Orders Table --
 
-CREATE TABLE Orders(
-
-  id BIGINT PRIMARY KEY IDENTITY,
-  quantity INT NOT NULL DEFAULT 1,
-  product_id BIGINT NOT NULL,
-  user_id BIGINT NOT NULL,
-
-  CONSTRAINT FK_orders_Product_id
-  FOREIGN KEY(product_id) REFERENCES products(id),
-
-  CONSTRAINT FK_orders_User_id
-  FOREIGN KEY(user_id) REFERENCES users(id) ON DELETE CASCADE
+CREATE TABLE orders(
+	id BIGINT PRIMARY KEY IDENTITY,
+	quantity INT NOT NULL DEFAULT 1,
+	product_id BIGINT NOT NULL,
+	user_id BIGINT NOT NULL,
+	CONSTRAINT FK_orders_Product_id
+	FOREIGN KEY(product_id) REFERENCES products(id),
+	CONSTRAINT FK_orders_User_id
+	FOREIGN KEY(user_id) REFERENCES users(id) ON DELETE CASCADE
 );
----INSERT AND SEE THE FORIEGN KEY REFERENCES ISSUES----
+
+
+-- Inserting values to users --
+
 INSERT INTO users (first_name, last_name, username, email, phone_number, dob, password_hash, about)
 VALUES
 ('Manu', 'Smith', 'manusmith', 'manu.smith@email.com', '1234567890', '1990-05-15', 'hashedPassword1', 'Loves tech and coding'),
-('Sachu', 'Johnson', 'sachujohn', 'sachu.john@email.com', '9876543210', '1988-11-20', 'hashedPassword2', 'Avid reader and musician'),
-('Midhun', 'Brown', 'midhbrown', 'midh.brown@email.com', '4567891230', '1992-07-07', 'hashedPassword3', 'Passionate about AI and robotics'),
-('Vibhav', 'Williams', 'vibhwills', 'vibh.wills@email.com', '7891234560', '1985-02-10', 'hashedPassword4', 'Enjoys hiking and traveling'),
 ('Ethan', 'Davis', 'ethdavis', 'ethan.davis@email.com', '3216549870', '1995-03-25', 'hashedPassword5', 'Creative designer and developer');
+
+
+-- Inserting values to products --
+
 INSERT INTO products (name, description, price, stock_quantity, category_id)
 VALUES
 ('Laptop', 'High-end gaming laptop', 1200.00, 50, 1),
-('Smartphone', 'Latest model smartphone with advanced features', 799.99, 150, 2),
-('Headphones', 'Wireless noise-canceling headphones', 199.50, 300, 3),
-('Keyboard', 'Mechanical keyboard with RGB lights', 99.99, 120, 4),
 ('Monitor', '27-inch 4K Ultra HD monitor', 299.99, 75, 5);
-INSERT INTO products (name, description, price, stock_quantity, category_id)
+
+
+-- Inserting values to orders --
+
+INSERT INTO orders (quantity, product_id, user_id)
 VALUES
-('Gaming Mouse', 'Ergonomic wireless gaming mouse with customizable buttons', 49.99, 200, 6),
-('Tablet', '10-inch tablet with high-resolution display and 128GB storage', 399.99, 80, 7),
-('Smartwatch', 'Smartwatch with fitness tracking and heart-rate monitor', 149.99, 250, 8);
-
-INSERT INTO Orders (quantity, product_id, user_id)
-VALUES
-(2, 1, 1),  -- Manu orders 2 laptops
-(1, 2, 2),  -- Sachu orders 1 smartphone
-(3, 3, 3),  -- Midhun orders 3 headphones
-(1, 4, 4),  -- Vibhav orders 1 keyboard
-(1, 5, 5);  -- Ethan orders 1 monitor
+(2, 1, 1),
+(1, 2, 2);
 
 
-
----SELF REFERING--- ON DELETE SET NULL---
+-- Self refering table --
 
 CREATE TABLE employees(
-
-   id int primary key IDENTITY,
-   name varchar(50),
-   email varchar (100),
-   manager_id int,
-   constraint fk_foo_boo
-   foreign key(manager_id) REFERENCES EMPLOYEES(ID)
-
+	id INT PRIMARY KEY IDENTITY,
+	name VARCHAR (50),
+	email VARCHAR (100),
+	manager_id INT,
+	CONSTRAINT fk_foo_boo
+	FOREIGN KEY(manager_id) REFERENCES employees(id)
  );
- --------MANY TO MANY---
+
+
+ -- Tables using many to many relations --
+
  CREATE TABLE category(
+	id BIGINT PRIMARY KEY IDENTITY,
+	name VARCHAR(100) UNIQUE NOT NULL
+);
 
-  id bigint primary key identity,
-  name varchar(100) unique not null
-
+CREATE TABLE product_categories(
+	id INT PRIMARY KEY IDENTITY,
+	category_id BIGINT,
+	product_id BIGINT,
+	CONSTRAINT fk_category_id FOREIGN KEY(category_id) REFERENCES category(id),
+	CONSTRAINT fk_product_id FOREIGN KEY(product_id) REFERENCES products(id)
 );
 
 
-create table product_categories(
-  id int primary key identity,
-  category_id bigint,
-  product_id bigint,
+-- Inserting values to category --
 
-  constraint fk_category_id foreign key(category_id) references category(id),
-  constraint fk_product_id foreign key(product_id) references products(id)
+INSERT INTO category (name) VALUES ('home'),('electronics');
 
-);
+-- Inserting values to product_categories --
 
-insert into product_categories values(2,1),(3,1),(2,2),(3,2)
+INSERT INTO product_categories (category_id,product_id) VALUES (2,1),(1,1);
 
 
-----joins---
-select orders.id as order_id,
-      products.id as product_id,
-	  products.name as product_name,
-	  products.price as price,
-	  users.id as  user_id,
-	  users.first_name as user_name
-	  from orders inner join products on orders.product_id = products.id inner join Users on orders.User_id = users.id ;
-	  ---left join--
-select orders.id as order_id,
-      orders.quantity,
-      products.id as product_id,
-	  products.name as product_name,
-	  products.price as price
-	  from orders right join
-	  products on orders.product_id= products.id;
+-- Joins --
+
+SELECT orders.id AS order_id,
+       products.id AS product_id,
+       products.name AS product_name,
+       products.price AS price,
+       users.id AS user_id,
+       users.first_name AS user_name
+FROM Orders
+INNER JOIN Products ON orders.product_id = products.id
+INNER JOIN Users ON orders.user_id = users.id;
+
+-- Right join to fetch products even if there are no orders
+
+SELECT orders.id AS order_id,
+       orders.quantity,
+       products.id AS product_id,
+       products.name AS product_name,
+       products.price AS price
+FROM Orders
+RIGHT JOIN Products ON orders.product_id = products.id;
+
+-- Left join to fetch orders even if there are no matching products
+
+SELECT orders.id AS order_id,
+       orders.quantity,
+       products.id AS product_id,
+       products.name AS product_name,
+       products.price AS price
+FROM Orders
+LEFT JOIN Products ON orders.product_id = products.id;
+
+-- Left join with inner join to fetch orders, products, and user details
+
+SELECT orders.id AS order_id,
+       orders.quantity,
+       products.id AS product_id,
+       products.name AS product_name,
+       products.price AS price,
+       users.first_name,
+       users.last_name
+FROM Orders
+LEFT JOIN Products ON orders.product_id = products.id
+INNER JOIN Users ON orders.user_id = users.id;
 
 
-select orders.id as order_id,
-      orders.quantity,
-      products.id as product_id,
-	  products.name as product_name,
-	  products.price as price
-	  from orders left join
-	  products on orders.product_id= products.id;
+-- Create view to select all from Orders
 
-select orders.id as order_id,
-      orders.quantity,
-      products.id as product_id,
-	  products.name as product_name,
-	  products.price as price,
-	  users.first_name,
-	  users.last_name
-	  from orders left join
-	  products on orders.product_id= products.id inner join users on orders.user_id = users.id ;
-	  ----create view---
-CREATE VIEW view_Orders
+CREATE VIEW view_orders
 AS
-    SELECT * FROM ORDERS;
+SELECT * FROM Orders;
 
 ```

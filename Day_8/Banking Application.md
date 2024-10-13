@@ -1,6 +1,7 @@
 ﻿-- Creating Customer Table --
 
 ```sql
+
 CREATE TABLE Customers (
 customer_id INT IDENTITY(1,1) PRIMARY KEY,
 first_name VARCHAR(50) NOT NULL,
@@ -103,4 +104,5 @@ to_account_id AS reciever,
 amount,
 transfer_date as [when]
 FROM Transactions
+
 ```

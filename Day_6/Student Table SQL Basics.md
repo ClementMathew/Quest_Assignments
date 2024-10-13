@@ -10,6 +10,8 @@
     6. Aggregate Functions.
     7. Length and Top
 
+---
+
 #### Example Code :
 
 ```sql

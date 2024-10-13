@@ -7,6 +7,8 @@
     3. Create index.
     4. Add check constraints.
 
+---
+
 #### Code :
 
 ```sql
