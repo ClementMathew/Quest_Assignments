@@ -4,7 +4,7 @@
 
     Read values from user until user says to exit and print the values when exists.
 
-    Note :- Initial array size must be 1 and keep increasing the size of array according to input.
+Note :- Initial array size must be 1 and keep increasing the size of array according to input.
 
 ---
 

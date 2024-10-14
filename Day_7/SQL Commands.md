@@ -422,6 +422,8 @@ Used to enforce business rules, audit changes, or maintain data integrity.
 
 #### 1. INSERT Trigger :
 
+---
+
 ```sql
    CREATE TRIGGER trgAfterInsert ON marks
    AFTER INSERT
@@ -432,6 +434,8 @@ Used to enforce business rules, audit changes, or maintain data integrity.
 ```
 
 #### 2. UPDATE Trigger :
+
+---
 
 ```sql
    CREATE TRIGGER trgAfterUpdate ON marks
@@ -444,6 +448,8 @@ Used to enforce business rules, audit changes, or maintain data integrity.
 
 #### 3. DELETE Trigger :
 
+---
+
 ```sql
    CREATE TRIGGER trgAfterDelete ON marks
    AFTER DELETE
@@ -455,7 +461,7 @@ Used to enforce business rules, audit changes, or maintain data integrity.
 
 <br>
 
-### FUNCTIONS
+### Functions :
 
 ---
 

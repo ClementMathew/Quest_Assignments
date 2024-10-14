@@ -33,7 +33,7 @@ There are three primary types of relationships in DBMS. In each type of relation
 
 <br>
 
-#### One to Many Relationship
+#### Many to Many Relationship
 
 ---
 

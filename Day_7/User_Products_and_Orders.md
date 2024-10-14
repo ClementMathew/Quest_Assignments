@@ -7,6 +7,8 @@
     3. Perform joins to retrieve necessary datas.
     4. Create view to see all orders.
 
+---
+
 #### Code :
 
 ```sql

@@ -2,7 +2,7 @@
 
 #### Question :
 
-Print the last character of the input string.
+    Print the last character of the input string.
 
 ---
 

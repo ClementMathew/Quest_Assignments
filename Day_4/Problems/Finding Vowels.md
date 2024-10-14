@@ -2,7 +2,7 @@
 
 #### Question :
 
-Print the vowels from an input string.
+    Print the vowels from an input string.
 
 ---
 

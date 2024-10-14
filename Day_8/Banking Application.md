@@ -1,16 +1,34 @@
-﻿-- Creating Customer Table --
+﻿# Banking Application
+
+#### Question :
+
+Create a banking application with following operations :
+
+    1. Create account
+    2. Delete account
+    3. Update account
+    4. Deposit money
+    5. Withdraw money
+    6. Transfer money
+    7. View transactions
+
+---
+
+#### Code : 
 
 ```sql
 
+-- Creating Customer Table --
+
 CREATE TABLE Customers (
-customer_id INT IDENTITY(1,1) PRIMARY KEY,
-first_name VARCHAR(50) NOT NULL,
-last_name VARCHAR(50) NOT NULL,
-date_of_birth DATE,
-email VARCHAR(100) UNIQUE,
-phone_number VARCHAR(20),
-address VARCHAR(255),
-created_at DATETIME DEFAULT GETDATE()
+    customer_id INT IDENTITY(1,1) PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    date_of_birth DATE,
+    email VARCHAR(100) UNIQUE,
+    phone_number VARCHAR(20),
+    address VARCHAR(255),
+    created_at DATETIME DEFAULT GETDATE()
 );
 
 CREATE INDEX customer_phone_indx
@@ -19,13 +37,13 @@ ON Customers (phone_number);
 -- Creating Accounts Table --
 
 CREATE TABLE Accounts (
-account_id INT IDENTITY(1,1) PRIMARY KEY,
-customer_id INT NOT NULL,
-account_type VARCHAR(20) CHECK (account_type IN ('savings', 'credit')),
-balance DECIMAL(15, 2) DEFAULT 0.00,
-account_status VARCHAR(20) CHECK (account_status IN ('active', 'inactive', 'closed')) DEFAULT 'active',
-created_at DATETIME DEFAULT GETDATE(),
-CONSTRAINT FK_Customer_Account FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
+    account_id INT IDENTITY(1,1) PRIMARY KEY,
+    customer_id INT NOT NULL,
+    account_type VARCHAR(20) CHECK (account_type IN ('savings', 'credit')),
+    balance DECIMAL(15, 2) DEFAULT 0.00,
+    account_status VARCHAR(20) CHECK (account_status IN ('active', 'inactive', 'closed')) DEFAULT 'active',
+    created_at DATETIME DEFAULT GETDATE(),
+    CONSTRAINT FK_Customer_Account FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 );
 
 -- Inserting values to Customers table --
@@ -75,14 +93,14 @@ WHERE account_id = 2;
 -- Transfer money --
 
 CREATE TABLE Transactions (
-transaction_id INT IDENTITY(1,1) PRIMARY KEY,
-from_account_id INT NOT NULL,
-to_account_id INT NOT NULL,
-amount DECIMAL(15, 2) NOT NULL,
-transfer_date DATETIME DEFAULT GETDATE(),
-description VARCHAR(255),
-CONSTRAINT FK_Transfer_FromAccount FOREIGN KEY (from_account_id) REFERENCES Accounts(account_id),
-CONSTRAINT FK_Transfer_ToAccount FOREIGN KEY (to_account_id) REFERENCES Accounts(account_id)
+    transaction_id INT IDENTITY(1,1) PRIMARY KEY,
+    from_account_id INT NOT NULL,
+    to_account_id INT NOT NULL,
+    amount DECIMAL(15, 2) NOT NULL,
+    transfer_date DATETIME DEFAULT GETDATE(),
+    description VARCHAR(255),
+    CONSTRAINT FK_Transfer_FromAccount FOREIGN KEY (from_account_id) REFERENCES Accounts(account_id),
+    CONSTRAINT FK_Transfer_ToAccount FOREIGN KEY (to_account_id) REFERENCES Accounts(account_id)
 );
 
 INSERT INTO Transactions (from_account_id, to_account_id, amount, description)
