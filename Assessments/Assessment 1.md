@@ -3,6 +3,7 @@
 #### Code :
 
 ```c#
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,6 @@ namespace Hospital_Management_System
 {
     internal class Hospital_Management_System
     {
-
         static Dictionary<string, Dictionary<string, Dictionary<string, string>>> Departments = new Dictionary<string, Dictionary<string, Dictionary<string, string>>>();
 
         static void SearchPatient()
@@ -336,4 +336,5 @@ namespace Hospital_Management_System
         }
     }
 }
+
 ```
