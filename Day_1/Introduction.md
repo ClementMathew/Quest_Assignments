@@ -3,7 +3,7 @@
 #### Discussed about :
 
     1. Console IO Methods
-    2. Concatination
+    2. Concatenation
     3. Casing Types
 
 ---
@@ -37,7 +37,7 @@ namespace Basics
             Console.Write(" Line 2 \n");
             Console.WriteLine();
 
-            // Concatination.
+            // Concatenation.
 
             string name = "Clement";
             string message = "My name is ";
@@ -55,7 +55,7 @@ namespace Basics
             Console.WriteLine(fullName);
             Console.WriteLine();
 
-            // Concatinating string and int.
+            // Concatenating string and int.
 
             int age = 25;
 

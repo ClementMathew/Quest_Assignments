@@ -3,8 +3,8 @@
 #### Discussed about :
 
     1. Explicit and Implicit Conversion
-    2. Nullable and Nonnullable Datatypes
-    3. Signed and Unsigned Datatypes
+    2. Nullable and Non Nullable Datatype
+    3. Signed and Unsigned Datatype
 
 ---
 

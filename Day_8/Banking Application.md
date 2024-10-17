@@ -118,7 +118,7 @@ WHERE account_id = 6;
 
 SELECT
 from_account_id AS sender,
-to_account_id AS reciever,
+to_account_id AS receiver,
 amount,
 transfer_date as [when]
 FROM Transactions

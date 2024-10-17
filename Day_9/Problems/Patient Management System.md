@@ -56,7 +56,7 @@ namespace Patient_Management_System
             Console.WriteLine("Enter the age : ");
             string patient_age = Console.ReadLine();
 
-            Console.WriteLine("Enter the symptoms by comma seperated : ");
+            Console.WriteLine("Enter the symptoms by comma separated : ");
             string symptoms = Console.ReadLine();
 
             Dictionary<string, string> Temp = new Dictionary<string, string>();

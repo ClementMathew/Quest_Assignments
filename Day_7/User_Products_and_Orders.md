@@ -3,8 +3,8 @@
 #### Question :
 
     1. Create products and orders table.
-    2. Create self refering table.
-    3. Perform joins to retrieve necessary datas.
+    2. Create self referring table.
+    3. Perform joins to retrieve necessary data.
     4. Create view to see all orders.
 
 ---
@@ -64,7 +64,7 @@ VALUES
 (1, 2, 2);
 
 
--- Self refering table --
+-- Self referring table --
 
 CREATE TABLE employees(
 	id INT PRIMARY KEY IDENTITY,

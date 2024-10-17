@@ -224,7 +224,7 @@ namespace Hospital_Management_System
                     departmentFound = true;
                     Doctors = Departments[departmentName];
 
-                    Console.WriteLine("Enter the names of doctors by seperated commas : ");
+                    Console.WriteLine("Enter the names of doctors by separated commas : ");
                     string doctorsNames = Console.ReadLine().ToUpper();
 
                     List<string> doctors = new List<string>(doctorsNames.Split(','));
@@ -256,7 +256,7 @@ namespace Hospital_Management_System
             Console.WriteLine("Enter the department name : ");
             string departmentName = Console.ReadLine().ToUpper();
 
-            Console.WriteLine("Enter the names of doctors by seperated commas : ");
+            Console.WriteLine("Enter the names of doctors by separated commas : ");
             string doctorsNames = Console.ReadLine().ToUpper();
 
             if (!string.IsNullOrWhiteSpace(doctorsNames))

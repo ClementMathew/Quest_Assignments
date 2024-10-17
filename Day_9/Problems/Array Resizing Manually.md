@@ -2,7 +2,7 @@
 
 #### Question :
 
-Intialize a minimized array and read values from user by resising it manually.
+Initialize a minimized array and read values from user by resizing it manually.
 
 ---
 

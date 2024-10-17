@@ -3,7 +3,7 @@
 #### Discussed about :
 
     1. Date time functions
-    2. Formating date
+    2. Formatting date
 
 ---
 

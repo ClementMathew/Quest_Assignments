@@ -187,7 +187,7 @@ These commands work along with other commands, that is the above commands.
 The WHERE Clause generally is used to filter the rows from a table on a specific condition. WHERE clause specifies search conditions for the rows returned by the Query and limits rows to a specific row set. If a table has a huge amount of records and if someone wants to get the particular records then using the ‘where’ clause is useful.
 
 ```sql
-SELECT column1,column2,cloumn3….
+SELECT column1,column2,column3….
 FORM table_name
 WHERE Condition;
 ```

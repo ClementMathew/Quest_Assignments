@@ -36,7 +36,7 @@ The database is defined as a collection of enormous information stored in a logi
 
 <br>
 
-#### Differece between RDMS and Non Relational DBMS
+#### Difference between RDMS and Non Relational DBMS
 
 ---
 
