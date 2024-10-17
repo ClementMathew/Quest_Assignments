@@ -1,6 +1,15 @@
 # Array Resizing Manually
 
+#### Question :
+
+Intialize a minimized array and read values from user by resising it manually.
+
+---
+
+#### Code :
+
 ```c#
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -55,4 +64,5 @@ namespace Array_Resizing_Manually
         }
     }
 }
+
 ```
