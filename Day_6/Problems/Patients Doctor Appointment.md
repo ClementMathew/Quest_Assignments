@@ -2,9 +2,13 @@
 
 #### Question :
 
-    You are tasked with creating a system to track patients and the appointments they make with doctors. 
-    
-    Each patient has basic information like their name, age, gender, and contact details, while appointments include the appointment date, time, reason for the visit, and the doctor they will meet.
+```
+You are tasked with creating a system to track patients and the appointments they make with doctors.
+```
+
+- Each patient has basic information like their `name`, `age`, `gender`, and `contact` details.
+
+- While appointments include the appointment `date`, `time`, `reason` for the visit, and the `doctor` they will meet.
 
 #### Task :
 

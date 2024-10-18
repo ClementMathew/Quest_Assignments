@@ -2,15 +2,19 @@
 
 #### Question :
 
-    You are working on a database for a school’s student management system. The system contains a table named courses that stores information about the courses offered at the school and the students enrolled in them.
+You are working on a database for a school’s student management system.
+
+    The system contains a table named courses that stores information about the courses offered at the school and the students enrolled in them.
 
 #### Task :
 
 You have been tasked to generate a report that shows the following information for each course :
 
-  	1. The total number of students enrolled in each course.
-  	2. The total fees collected for each course.
-  	3. The course with the maximum number of enrollments.
+```
+1.  The total number of students enrolled in each course.
+2.  The total fees collected for each course.
+3.  The course with the maximum number of enrollments.
+```
 
 ---
 
