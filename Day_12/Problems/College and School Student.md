@@ -19,7 +19,7 @@ using System.Threading.Tasks;
 namespace College_and_School_Student
 {
 
-    abstract class Student
+    class Student
     {
         public string Name { get; set; }
         public string Email { get; set; }
