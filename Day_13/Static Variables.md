@@ -21,9 +21,11 @@ namespace Static_Variables
     class Employee
     {
         // Property for employee name
+
         public string Name { get; set; }
 
         // Static property for company name
+
         public static string CompanyName { get; set; }
 
         // Override ToString method to display employee information

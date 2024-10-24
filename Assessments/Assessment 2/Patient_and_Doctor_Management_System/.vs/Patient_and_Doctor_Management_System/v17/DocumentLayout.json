@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cleme\\Downloads\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|d:\\windows_development\\dot_net_development\\patient_and_doctor_management_system\\patient_and_doctor_management_system\\settings\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|solutionrelative:patient_and_doctor_management_system\\settings\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|d:\\windows_development\\dot_net_development\\patient_and_doctor_management_system\\patient_and_doctor_management_system\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|solutionrelative:patient_and_doctor_management_system\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|d:\\windows_development\\dot_net_development\\patient_and_doctor_management_system\\patient_and_doctor_management_system\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|solutionrelative:patient_and_doctor_management_system\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|d:\\windows_development\\dot_net_development\\patient_and_doctor_management_system\\patient_and_doctor_management_system\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|solutionrelative:patient_and_doctor_management_system\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|d:\\windows_development\\dot_net_development\\patient_and_doctor_management_system\\patient_and_doctor_management_system\\doctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|solutionrelative:patient_and_doctor_management_system\\doctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|d:\\windows_development\\dot_net_development\\patient_and_doctor_management_system\\patient_and_doctor_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|solutionrelative:patient_and_doctor_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|d:\\windows_development\\dot_net_development\\patient_and_doctor_management_system\\patient_and_doctor_management_system\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|solutionrelative:patient_and_doctor_management_system\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|d:\\windows_development\\dot_net_development\\patient_and_doctor_management_system\\patient_and_doctor_management_system\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|solutionrelative:patient_and_doctor_management_system\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|d:\\windows_development\\dot_net_development\\patient_and_doctor_management_system\\patient_and_doctor_management_system\\models\\types\\gendertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|solutionrelative:patient_and_doctor_management_system\\models\\types\\gendertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|d:\\windows_development\\dot_net_development\\patient_and_doctor_management_system\\patient_and_doctor_management_system\\interfaces\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|solutionrelative:patient_and_doctor_management_system\\interfaces\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|d:\\windows_development\\dot_net_development\\patient_and_doctor_management_system\\patient_and_doctor_management_system\\interfaces\\idoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|solutionrelative:patient_and_doctor_management_system\\interfaces\\idoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|d:\\windows_development\\dot_net_development\\patient_and_doctor_management_system\\patient_and_doctor_management_system\\models\\types\\specializationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AC61E4-6274-409A-B478-42C4926FD962}|Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System.csproj|solutionrelative:patient_and_doctor_management_system\\models\\types\\specializationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cleme\\Downloads\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cleme\\Downloads\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 468,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Settings\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Patient_and_Doctor_Management_System\\Settings\\AppSettings.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Settings\\AppSettings.cs",
+              "RelativeToolTip": "Patient_and_Doctor_Management_System\\Settings\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:45:03.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SpecializationType.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Models\\Types\\SpecializationType.cs",
+              "RelativeDocumentMoniker": "Patient_and_Doctor_Management_System\\Models\\Types\\SpecializationType.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Models\\Types\\SpecializationType.cs",
+              "RelativeToolTip": "Patient_and_Doctor_Management_System\\Models\\Types\\SpecializationType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:35:11.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenderType.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Models\\Types\\GenderType.cs",
+              "RelativeDocumentMoniker": "Patient_and_Doctor_Management_System\\Models\\Types\\GenderType.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Models\\Types\\GenderType.cs",
+              "RelativeToolTip": "Patient_and_Doctor_Management_System\\Models\\Types\\GenderType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:31:42.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Patient_and_Doctor_Management_System\\Models\\Doctor.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Models\\Doctor.cs",
+              "RelativeToolTip": "Patient_and_Doctor_Management_System\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:30:04.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Patient_and_Doctor_Management_System\\Models\\Patient.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Models\\Patient.cs",
+              "RelativeToolTip": "Patient_and_Doctor_Management_System\\Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:29:51.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPatient.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Interfaces\\IPatient.cs",
+              "RelativeDocumentMoniker": "Patient_and_Doctor_Management_System\\Interfaces\\IPatient.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Interfaces\\IPatient.cs",
+              "RelativeToolTip": "Patient_and_Doctor_Management_System\\Interfaces\\IPatient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:27:32.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDoctor.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Interfaces\\IDoctor.cs",
+              "RelativeDocumentMoniker": "Patient_and_Doctor_Management_System\\Interfaces\\IDoctor.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Interfaces\\IDoctor.cs",
+              "RelativeToolTip": "Patient_and_Doctor_Management_System\\Interfaces\\IDoctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:25:16.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoctorManager.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\DoctorManager.cs",
+              "RelativeDocumentMoniker": "Patient_and_Doctor_Management_System\\DoctorManager.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\DoctorManager.cs",
+              "RelativeToolTip": "Patient_and_Doctor_Management_System\\DoctorManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:17:28.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\cleme\\Downloads\\SQLQuery1.sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-24T04:08:57.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Program.cs",
+              "RelativeDocumentMoniker": "Patient_and_Doctor_Management_System\\Program.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Program.cs",
+              "RelativeToolTip": "Patient_and_Doctor_Management_System\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:03:37.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Repositories\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "Patient_and_Doctor_Management_System\\Repositories\\DoctorRepository.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Repositories\\DoctorRepository.cs",
+              "RelativeToolTip": "Patient_and_Doctor_Management_System\\Repositories\\DoctorRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T05:01:33.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientManager.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\PatientManager.cs",
+              "RelativeDocumentMoniker": "Patient_and_Doctor_Management_System\\PatientManager.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\PatientManager.cs",
+              "RelativeToolTip": "Patient_and_Doctor_Management_System\\PatientManager.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwEoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:17:09.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Repositories\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "Patient_and_Doctor_Management_System\\Repositories\\PatientRepository.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Patient_and_Doctor_Management_System\\Patient_and_Doctor_Management_System\\Repositories\\PatientRepository.cs",
+              "RelativeToolTip": "Patient_and_Doctor_Management_System\\Repositories\\PatientRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwEgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T05:01:21.173Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
