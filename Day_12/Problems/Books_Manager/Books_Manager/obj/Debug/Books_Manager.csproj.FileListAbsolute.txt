@@ -1,0 +1,10 @@
+D:\Windows_Development\Dot_Net_Development\Books_Manager\Books_Manager\bin\Debug\Books_Manager.exe.config
+D:\Windows_Development\Dot_Net_Development\Books_Manager\Books_Manager\bin\Debug\Books_Manager.exe
+D:\Windows_Development\Dot_Net_Development\Books_Manager\Books_Manager\bin\Debug\Books_Manager.pdb
+D:\Windows_Development\Dot_Net_Development\Books_Manager\Books_Manager\bin\Debug\Newtonsoft.Json.dll
+D:\Windows_Development\Dot_Net_Development\Books_Manager\Books_Manager\bin\Debug\Newtonsoft.Json.xml
+D:\Windows_Development\Dot_Net_Development\Books_Manager\Books_Manager\obj\Debug\Books_Manager.csproj.AssemblyReference.cache
+D:\Windows_Development\Dot_Net_Development\Books_Manager\Books_Manager\obj\Debug\Books_Manager.csproj.CoreCompileInputs.cache
+D:\Windows_Development\Dot_Net_Development\Books_Manager\Books_Manager\obj\Debug\Books_Ma.A898DD11.Up2Date
+D:\Windows_Development\Dot_Net_Development\Books_Manager\Books_Manager\obj\Debug\Books_Manager.exe
+D:\Windows_Development\Dot_Net_Development\Books_Manager\Books_Manager\obj\Debug\Books_Manager.pdb

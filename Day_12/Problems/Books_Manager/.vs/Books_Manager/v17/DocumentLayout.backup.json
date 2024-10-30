@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Windows_Development\\Dot_Net_Development\\Books_Manager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1C3138-2F81-49A9-A5FF-CA8B5F5443BE}|Books_Manager\\Books_Manager.csproj|d:\\windows_development\\dot_net_development\\books_manager\\books_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1C3138-2F81-49A9-A5FF-CA8B5F5443BE}|Books_Manager\\Books_Manager.csproj|solutionrelative:books_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1C3138-2F81-49A9-A5FF-CA8B5F5443BE}|Books_Manager\\Books_Manager.csproj|d:\\windows_development\\dot_net_development\\books_manager\\books_manager\\services\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1C3138-2F81-49A9-A5FF-CA8B5F5443BE}|Books_Manager\\Books_Manager.csproj|solutionrelative:books_manager\\services\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1C3138-2F81-49A9-A5FF-CA8B5F5443BE}|Books_Manager\\Books_Manager.csproj|d:\\windows_development\\dot_net_development\\books_manager\\books_manager\\services\\jsonfilestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1C3138-2F81-49A9-A5FF-CA8B5F5443BE}|Books_Manager\\Books_Manager.csproj|solutionrelative:books_manager\\services\\jsonfilestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1C3138-2F81-49A9-A5FF-CA8B5F5443BE}|Books_Manager\\Books_Manager.csproj|d:\\windows_development\\dot_net_development\\books_manager\\books_manager\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1C3138-2F81-49A9-A5FF-CA8B5F5443BE}|Books_Manager\\Books_Manager.csproj|solutionrelative:books_manager\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1C3138-2F81-49A9-A5FF-CA8B5F5443BE}|Books_Manager\\Books_Manager.csproj|d:\\windows_development\\dot_net_development\\books_manager\\books_manager\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1C3138-2F81-49A9-A5FF-CA8B5F5443BE}|Books_Manager\\Books_Manager.csproj|solutionrelative:books_manager\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 468,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Books_Manager\\Books_Manager\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "Books_Manager\\Entities\\Book.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Books_Manager\\Books_Manager\\Entities\\Book.cs",
+              "RelativeToolTip": "Books_Manager\\Entities\\Book.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:39:17.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IStorageService.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Books_Manager\\Books_Manager\\Services\\IStorageService.cs",
+              "RelativeDocumentMoniker": "Books_Manager\\Services\\IStorageService.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Books_Manager\\Books_Manager\\Services\\IStorageService.cs",
+              "RelativeToolTip": "Books_Manager\\Services\\IStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:38:55.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JsonFileStorage.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Books_Manager\\Books_Manager\\Services\\JsonFileStorage.cs",
+              "RelativeDocumentMoniker": "Books_Manager\\Services\\JsonFileStorage.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Books_Manager\\Books_Manager\\Services\\JsonFileStorage.cs",
+              "RelativeToolTip": "Books_Manager\\Services\\JsonFileStorage.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowDUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:38:42.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookManager.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Books_Manager\\Books_Manager\\BookManager.cs",
+              "RelativeDocumentMoniker": "Books_Manager\\BookManager.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Books_Manager\\Books_Manager\\BookManager.cs",
+              "RelativeToolTip": "Books_Manager\\BookManager.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:36:29.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Books_Manager\\Books_Manager\\Program.cs",
+              "RelativeDocumentMoniker": "Books_Manager\\Program.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Books_Manager\\Books_Manager\\Program.cs",
+              "RelativeToolTip": "Books_Manager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:55:52.87Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

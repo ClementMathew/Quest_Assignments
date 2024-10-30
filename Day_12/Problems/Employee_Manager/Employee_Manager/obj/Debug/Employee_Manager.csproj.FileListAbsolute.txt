@@ -1,0 +1,10 @@
+D:\Windows_Development\Dot_Net_Development\Employee_Manager\Employee_Manager\bin\Debug\Employee_Manager.exe.config
+D:\Windows_Development\Dot_Net_Development\Employee_Manager\Employee_Manager\bin\Debug\Employee_Manager.exe
+D:\Windows_Development\Dot_Net_Development\Employee_Manager\Employee_Manager\bin\Debug\Employee_Manager.pdb
+D:\Windows_Development\Dot_Net_Development\Employee_Manager\Employee_Manager\bin\Debug\Newtonsoft.Json.dll
+D:\Windows_Development\Dot_Net_Development\Employee_Manager\Employee_Manager\bin\Debug\Newtonsoft.Json.xml
+D:\Windows_Development\Dot_Net_Development\Employee_Manager\Employee_Manager\obj\Debug\Employee_Manager.csproj.AssemblyReference.cache
+D:\Windows_Development\Dot_Net_Development\Employee_Manager\Employee_Manager\obj\Debug\Employee_Manager.csproj.CoreCompileInputs.cache
+D:\Windows_Development\Dot_Net_Development\Employee_Manager\Employee_Manager\obj\Debug\Employee.E928A689.Up2Date
+D:\Windows_Development\Dot_Net_Development\Employee_Manager\Employee_Manager\obj\Debug\Employee_Manager.exe
+D:\Windows_Development\Dot_Net_Development\Employee_Manager\Employee_Manager\obj\Debug\Employee_Manager.pdb

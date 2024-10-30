@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97DCA281-77D5-4B53-9D48-51E42AFEE538}|Contact_Manager\\Contact_Manager.csproj|D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\contact_manager\\common\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97DCA281-77D5-4B53-9D48-51E42AFEE538}|Contact_Manager\\Contact_Manager.csproj|solutionrelative:contact_manager\\common\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97DCA281-77D5-4B53-9D48-51E42AFEE538}|Contact_Manager\\Contact_Manager.csproj|D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\contact_manager\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97DCA281-77D5-4B53-9D48-51E42AFEE538}|Contact_Manager\\Contact_Manager.csproj|solutionrelative:contact_manager\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97DCA281-77D5-4B53-9D48-51E42AFEE538}|Contact_Manager\\Contact_Manager.csproj|d:\\windows_development\\dot_net_development\\contact_manager\\contact_manager\\contactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97DCA281-77D5-4B53-9D48-51E42AFEE538}|Contact_Manager\\Contact_Manager.csproj|solutionrelative:contact_manager\\contactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97DCA281-77D5-4B53-9D48-51E42AFEE538}|Contact_Manager\\Contact_Manager.csproj|D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\contact_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97DCA281-77D5-4B53-9D48-51E42AFEE538}|Contact_Manager\\Contact_Manager.csproj|solutionrelative:contact_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97DCA281-77D5-4B53-9D48-51E42AFEE538}|Contact_Manager\\Contact_Manager.csproj|D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\contact_manager\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97DCA281-77D5-4B53-9D48-51E42AFEE538}|Contact_Manager\\Contact_Manager.csproj|solutionrelative:contact_manager\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 468,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\Contact_Manager\\Common\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Contact_Manager\\Common\\AppSettings.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\Contact_Manager\\Common\\AppSettings.cs",
+              "RelativeToolTip": "Contact_Manager\\Common\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T05:09:20.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\Contact_Manager\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Contact_Manager\\Models\\Contact.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\Contact_Manager\\Models\\Contact.cs",
+              "RelativeToolTip": "Contact_Manager\\Models\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T05:08:19.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\Contact_Manager\\Repositories\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "Contact_Manager\\Repositories\\ContactRepository.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\Contact_Manager\\Repositories\\ContactRepository.cs",
+              "RelativeToolTip": "Contact_Manager\\Repositories\\ContactRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA6wBAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:21:32.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactManager.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\Contact_Manager\\ContactManager.cs",
+              "RelativeDocumentMoniker": "Contact_Manager\\ContactManager.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\Contact_Manager\\ContactManager.cs",
+              "RelativeToolTip": "Contact_Manager\\ContactManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:19:57.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\Contact_Manager\\Program.cs",
+              "RelativeDocumentMoniker": "Contact_Manager\\Program.cs",
+              "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Contact_Manager\\Contact_Manager\\Program.cs",
+              "RelativeToolTip": "Contact_Manager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:17:08.204Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

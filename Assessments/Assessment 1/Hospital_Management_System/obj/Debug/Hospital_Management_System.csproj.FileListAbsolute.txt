@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Hospital_Management_System\bin\Debug\Hospital_Management_System.exe.config
+D:\Programming\C_Sharp_Programs\Hospital_Management_System\bin\Debug\Hospital_Management_System.exe
+D:\Programming\C_Sharp_Programs\Hospital_Management_System\bin\Debug\Hospital_Management_System.pdb
+D:\Programming\C_Sharp_Programs\Hospital_Management_System\obj\Debug\Hospital_Management_System.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Hospital_Management_System\obj\Debug\Hospital_Management_System.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Hospital_Management_System\obj\Debug\Hospital_Management_System.exe
+D:\Programming\C_Sharp_Programs\Hospital_Management_System\obj\Debug\Hospital_Management_System.pdb
