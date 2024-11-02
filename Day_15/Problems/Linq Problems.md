@@ -2,86 +2,87 @@
 
 #### Question :
 
-1.  Filter Even Numbers
+1. **Filter Even Numbers**
 
-        Given a list of integers, return all the even numbers.
+   Given a list of integers, return all the even numbers.
 
-2.  Filter Strings Starting with 'A'
+2. **Filter Strings Starting with 'A'**
 
-        From a list of strings, return those that start with the letter 'A'.
+   From a list of strings, return those that start with the letter 'A'.
 
-3.  Sort in Descending Order
+3. **Sort in Descending Order**
 
-        Sort a list of integers in descending order.
+   Sort a list of integers in descending order.
 
-4.  Square of Each Number
+4. **Square of Each Number**
 
-        From a list of integers, return the square of each integer.
+   From a list of integers, return the square of each integer.
 
-5.  Square of Even Numbers
+5. **Square of Even Numbers**
 
-        From a list of integers, return the squares of only the even numbers.
+   From a list of integers, return the squares of only the even numbers.
 
-6.  Find First String Starting with 'B'
+6. **Find First String Starting with 'B'**
 
-        From a list of strings, return the first string that starts with the letter 'B'.
-        If none exists, return null.
+   From a list of strings, return the first string that starts with the letter 'B'. If none exists, return null.
 
-7.  Students Scoring Above 80
+7. **Students Scoring Above 80**
 
-        Given two lists, one containing students' names and the other their grades, return the names of students who scored more than 80.
+   Given two lists, one containing students' names and the other their grades, return the names of students who scored more than 80.
 
-8.  Group Words by Length
+8. **Group Words by Length**
 
-        Group a list of words by their length.
+   Group a list of words by their length.
 
-9.  Find Maximum Value
+9. **Find Maximum Value**
 
-        From a list of integers, return the maximum value.
+   From a list of integers, return the maximum value.
 
-10. Find Minimum Value
+10. **Find Minimum Value**
 
-        From a list of integers, return the minimum value.
+    From a list of integers, return the minimum value.
 
-11. Check for Numbers Greater Than 50
+11. **Check for Numbers Greater Than 50**
 
-        From a list of integers, check if any number is greater than 50.
+    From a list of integers, check if any number is greater than 50.
 
-12. Check if All Numbers Are Positive
+12. **Check if All Numbers Are Positive**
 
-        From a list of integers, check if all numbers are positive.
+    From a list of integers, check if all numbers are positive.
 
-13. Sum of All Elements
+13. **Sum of All Elements**
 
-        Return the sum of all elements in a list of integers.
+    Return the sum of all elements in a list of integers.
 
-14. Calculate Average
+14. **Calculate Average**
 
-        Return the average of a list of floating-point numbers.
+    Return the average of a list of floating-point numbers.
 
-15. Remove Duplicates
+15. **Remove Duplicates**
 
-        From a list of integers with duplicates, return only the distinct numbers.
+    From a list of integers with duplicates, return only the distinct numbers.
 
-16. Count Elements Greater Than 10
+16. **Count Elements Greater Than 10**
 
-        From a list of integers, count how many elements are greater than 10.
+    From a list of integers, count how many elements are greater than 10.
 
-17. Join Employees with Departments
+17. **Join Employees with Departments**
 
-        Given two lists, one of employees and one of departments, return a list of employees with their corresponding department names based on department IDs.
+    Given two lists, one of employees and one of departments, return a list of employees with their corresponding department names based on department IDs.
 
-18. Filter and Sort Products by Price
+18. **Filter and Sort Products by Price**
 
-        From a list of products, return those with prices greater than $100, sorted in ascending order.
+    From a list of products, return those with prices greater than $100, sorted in ascending order.
 
-19. Skip and Take Elements
+19. **Skip and Take Elements**
 
-        From a list of integers, skip the first 5 elements and return the next 3 elements.
+    From a list of integers, skip the first 5 elements and return the next 3 elements.
 
-20. Zip Two Lists Together
+20. **Zip Two Lists Together**
 
-        Given two lists of the same length, combine corresponding elements into pairs.
+    Given two lists of the same length, combine corresponding elements into pairs.
+
+<br>
 
 ---
 
