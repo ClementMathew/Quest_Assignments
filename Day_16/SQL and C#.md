@@ -1,6 +1,6 @@
 # SQL and C#
 
-#### Question :
+#### Discussed about :
 
 1. **Database Connection String**
 
@@ -38,7 +38,7 @@
 
 ---
 
-#### Code :
+#### Example Code :
 
 ```c#
 

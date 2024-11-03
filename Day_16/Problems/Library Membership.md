@@ -2,27 +2,6 @@
 
 #### Question :
 
-Here are some short questions based on the provided code:
-
-1. **What is the purpose of the `GenericResponse` class in this project?**
-
-2. **How does the `BookRepository` class retrieve a book by its name?**
-
-3. **What message is displayed if a book is not found by `GetById` in the `BookRepository`?**
-
-4. **In `MemberRepository`, how is a member retrieved by their email?**
-
-5. **What is the output if a member with the given email is not found in `GetByEmail`?**
-
-6. **What does the `DataStore` class initialize in its static constructor?**
-
-7. **How is the `Library_Membership` class using `BookRepository` to fetch books by ID and name?**
-
-8. **What does the `MemberRepository` return if a member with a specific name is not in the `DataStore`?**
-
-9. **What does `Console.WriteLine(memberResult.Data.BookId);` display in `Library_Membership`?**
-
-10. **What data type does `GetAllBooks` in `BookRepository` return?**
 
 <br>
 

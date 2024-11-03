@@ -1,6 +1,6 @@
 # Generics
 
-#### Question :
+#### Discussed about :
 
 1. **What is the purpose of the `SortedList<T>` class in the code?**
 
@@ -18,7 +18,7 @@
 
 ---
 
-#### Code :
+#### Example Code :
 
 ```c#
 
