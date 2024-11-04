@@ -53,9 +53,9 @@ namespace Iteration_Statements
             var sb = new StringBuilder();
             string[] names = { "Clement", "Mathew", "Sheba" };
 
-            for (int i = 0; i < names.Length; i++)
+            foreach (var name in names)
             {
-                sb.AppendLine($"{names[i]} is {i} years old.");
+                sb.AppendLine($"Name is : {name}");
             }
             Console.WriteLine(sb.ToString());
         }
