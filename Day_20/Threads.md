@@ -1,3 +1,15 @@
+# Threads
+
+#### Discussed about :
+
+    Concepts of Threads.
+
+---
+
+#### Example Code :
+
+```c#
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,13 +19,13 @@ using System.Threading.Tasks;
 
 namespace Threads
 {
-    internal class Multi_Threading
-    {
-        static void Action1()
-        {
-            Thread.Sleep(2000);
-            Console.WriteLine("Hello from Action1");
-        }
+internal class Multi_Threading
+{
+static void Action1()
+{
+Thread.Sleep(2000);
+Console.WriteLine("Hello from Action1");
+}
 
         static void Action2()
         {
@@ -35,3 +47,5 @@ namespace Threads
         }
     }
 }
+
+```
