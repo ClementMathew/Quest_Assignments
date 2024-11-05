@@ -1,3 +1,17 @@
+# Server Client Application
+
+#### Discussed about :
+
+    Concepts of Client and Server Socket Programming.
+
+---
+
+#### Example Code :
+
+```c#
+
+// Server Class
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +32,11 @@ namespace Server
     }
 }
 
+```
+
+```c#
+
+// Server Builder Class
 
 using System;
 using System.Collections.Generic;
@@ -86,7 +105,11 @@ namespace Server
     }
 }
 
+```
 
+```c#
+
+// Client Class
 
 using System;
 using System.Collections.Generic;
@@ -107,6 +130,11 @@ namespace Client
     }
 }
 
+```
+
+```c#
+
+// Client Builder Class
 
 using System;
 using System.Collections.Generic;
@@ -167,3 +195,5 @@ namespace Client
         }
     }
 }
+
+```

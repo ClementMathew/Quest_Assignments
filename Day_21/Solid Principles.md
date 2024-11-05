@@ -1,3 +1,5 @@
+# Solid Principles
+
 The **SOLID principles** are a set of five design principles in object-oriented programming that aim to make software designs more understandable, flexible, and maintainable. Here’s a breakdown of each principle:
 
 ### 1. Single Responsibility Principle (SRP)
@@ -19,10 +21,3 @@ High-level modules should not depend on low-level modules. Both should depend on
 - **Improved Maintainability**: Following these principles leads to a more modular and comprehensible codebase, making it easier to make changes and enhancements.
 - **Enhanced Flexibility**: The principles encourage designs that are less likely to be affected by changes, allowing for easier extensions and modifications.
 - **Greater Testability**: With a well-structured codebase, unit tests become easier to write and maintain.
-
-### Resources for Further Reading
-- [Martin Fowler's SOLID Principles](https://martinfowler.com/articles/solid.html) – A detailed overview of the SOLID principles with explanations and examples.
-- [SOLID Principles Explained](https://www.codeproject.com/Articles/1251148/SOLID-Principles-in-C-Sharp) – An article that breaks down each principle with C# examples.
-- [SOLID Principles in Object-Oriented Programming](https://www.tutorialsteacher.com/csharp/solid-principles) – An introduction to SOLID principles with practical implications in C# programming.
-
-These resources will provide you with more comprehensive insights and examples of how the SOLID principles can be applied in software design.

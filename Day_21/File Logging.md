@@ -1,3 +1,15 @@
+# File Logging
+
+#### Discussed about :
+
+    Concepts of Logging in File.
+
+---
+
+#### Example Code :
+
+```c#
+
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -69,3 +81,5 @@ namespace File_Logging
         }
     }
 }
+
+```

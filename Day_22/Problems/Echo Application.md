@@ -1,3 +1,17 @@
+# Echo Application
+
+#### Discussed about :
+
+    Concepts of Client and Server Echo Application.
+
+---
+
+#### Example Code :
+
+```c#
+
+// Echo Server Class
+
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,8 +33,11 @@ namespace Echo_server
     }
 }
 
+```
 
+```c#
 
+// Server Builder Class
 
 using System;
 using System.Net;
@@ -75,6 +92,11 @@ namespace Echo_server
     }
 }
 
+```
+
+```c#
+
+// Echo Client Class
 
 using System;
 using System.Collections.Generic;
@@ -98,6 +120,11 @@ namespace Echo_Client
     }
 }
 
+```
+
+```c#
+
+// Client Builder Class
 
 using System;
 using System.Net.Sockets;
@@ -148,3 +175,4 @@ namespace Echo_Client
     }
 }
 
+```
