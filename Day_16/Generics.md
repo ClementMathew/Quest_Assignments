@@ -2,17 +2,15 @@
 
 #### Discussed about :
 
-1. **What is the purpose of the `SortedList<T>` class in the code?**
+1. **Generics in C#**  
+   How does using generics enhance the flexibility and type safety of these data structures?
 
-2. **How does the `Add` method in the `SortedList<T>` class ensure that the elements remain sorted?**
+2. **Class Explanations**  
+   - **`SortedList` Class**: Explain how the `Add` method adds items and sorts them automatically. How does the `PrintData` method display the sorted list?
+   - **`NewDictionary` Class**: Describe how the `Add` method stores key-value pairs, and how the `PrintData` method displays the contents.
 
-3. **What are the generic parameters used in the `NewDictionary<T, TValue>` class?**
-
-4. **How do you access the number of elements in the `SortedList<T>` and `NewDictionary<T, TValue>` classes?**
-
-5. **What will happen if you try to add a duplicate key to the `NewDictionary<T, TValue>` class?**
-
-6. **Explain how the `Main` method demonstrates the usage of both the `SortedList<T>` and `NewDictionary<T, TValue>` classes.**
+3. **Role of Generics**  
+   Discuss how generics in this code make the `SortedList` and `NewDictionary` classes adaptable for different data types, providing examples of usage with integers and strings.
 
 <br>
 

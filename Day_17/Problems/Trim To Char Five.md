@@ -1,3 +1,17 @@
+# Trim To Char Five
+
+#### Question :
+
+Trim a string to five characters using the `TrimToFiveChars` method with the `ref` keyword, modifying the original `string`. Given `text = "Old Data"`, the output will be `"Old D..."`.
+
+<br>
+
+---
+
+#### Code :
+
+```c#
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,3 +47,5 @@ namespace Trim_To_Five_Char
         }
     }
 }
+
+```

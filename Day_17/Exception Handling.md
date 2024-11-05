@@ -1,3 +1,16 @@
+# Exception Handling
+
+#### Discussed about :
+
+    1. Concept of Exception Handling
+    2. Custom Exception
+    3. Exception Throwing
+
+---
+
+#### Example Code :
+
+```c#
 
 
 
@@ -96,3 +109,4 @@ namespace ExceptionsHandling
         }
     }
 }
+```

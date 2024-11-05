@@ -1,4 +1,4 @@
-# Understanding `System.Collections` and `System.Collections.Generic` in C#
+# Collections and Generics
 
 The namespaces `System.Collections` and `System.Collections.Generic` provide a variety of data structures that enable developers to store, manipulate, and manage collections of objects effectively. Each namespace serves different purposes, tailored to specific use cases.
 

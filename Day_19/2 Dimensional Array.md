@@ -1,3 +1,15 @@
+# 2 Dimensional Array
+
+#### Discussed about :
+
+    Concept of 2 Dimensional Array like Read, Display.
+
+---
+
+#### Example Code :
+
+```c#
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,3 +47,4 @@ namespace _2_Dimensional_Array
         }
     }
 }
+```

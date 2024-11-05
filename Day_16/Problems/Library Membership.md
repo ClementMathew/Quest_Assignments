@@ -2,6 +2,20 @@
 
 #### Question :
 
+Create a simple library membership management system in C#. The system should have the following functionalities:
+
+1. **Book Management:**
+
+   - Retrieve all books.
+   - Retrieve a book by its ID.
+   - Retrieve a book by its name.
+
+2. **Member Management:**
+   - Retrieve all members.
+   - Retrieve a member by their name.
+   - Retrieve a member by their email.
+
+The system should use appropriate classes for `Books`, `Members`, and a `GenericResponse` class for handling responses. Provide sample data for books and members in a static data store and demonstrate fetching books and members in the main program.
 
 <br>
 

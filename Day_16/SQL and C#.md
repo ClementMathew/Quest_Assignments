@@ -2,37 +2,22 @@
 
 #### Discussed about :
 
-1. **Database Connection String**
 
-   - What is the purpose of `connString`, and how is it used to connect to the database?
+1. **Database Connection**
+   - Explain the purpose of the `connString` variable and how it connects to the `Book_Library` database.
+2. **Creating and Inserting Data**
 
-2. **Create Table Query**
+   - **`BOOKS` Table Creation**: Describe the `createTableQuery` and how it defines the schema for the `BOOKS` table, including columns for `id`, `name`, `author`, and `price`.
+   - **Single Record Insertion**: Explain how the code takes user input for `name`, `author`, and `price`, and then uses the `INSERT` statement with parameters to add a new book to the database.
 
-   - How would you write a SQL command to create a `BOOKS` table with columns for `id`, `name`, `author`, and `price`?
+3. **Retrieving and Displaying Data**
 
-3. **Parameterized Insert Query**
+   - **`SELECT` Query Execution**: Describe how the `SELECT` statement retrieves all records from the `BOOKS` table. How does the code use `SqlDataReader` to read and display each record?
 
-   - Explain how the `insertQuery` uses parameterized SQL to insert a book into the database. Why is parameterization important?
-
-4. **Using a `SqlConnection` and `SqlCommand`**
-
-   - How does the code utilize `SqlConnection` and `SqlCommand` classes to execute SQL commands?
-
-5. **Fetching Records**
-
-   - How would you modify the code to retrieve records from the `BOOKS` table and display their `id`, `name`, `author`, and `price`?
-
-6. **Inserting Multiple Records**
-
-   - How does the code insert multiple `Book` objects from the list `list` into the `BOOKS` table? Why is `AddWithValue` used?
-
-7. **Executing a `SELECT` Statement**
-
-   - How would you write code to execute a `SELECT` query to retrieve all records from the `BOOKS` table?
-
-8. **Closing Connections**
-
-   - Why is it important to close the database connection after executing commands?
+4. **Inserting Multiple Records Using a List**
+   - **List of Books**: Explain how the list of `Books` objects is created, and how a `foreach` loop is used to insert each book in the list into the database.
+5. **Class Structure and Usage**
+   - **`Books` Class**: Discuss the purpose of the `Books` class and how its properties (`Name`, `Author`, `Price`) are used for database operations.
 
 <br>
 

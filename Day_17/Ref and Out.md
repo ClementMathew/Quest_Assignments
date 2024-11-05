@@ -1,3 +1,15 @@
+# Ref and Out
+
+#### Discussed about :
+
+    Concept of Ref and Out.
+
+---
+
+#### Example Code :
+
+```c#
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,3 +49,4 @@ namespace Ref_and_Out
         }
     }
 }
+```
