@@ -1,116 +1,119 @@
-The **Dependency Inversion Principle (DIP)** is one of the SOLID principles in software engineering, stating that high-level modules should not depend on low-level modules. Instead, both should depend on abstractions. In simpler terms, it encourages developers to use interfaces or abstract classes to decouple classes, making code more flexible and reducing tight coupling.
+The **Interface Segregation Principle (ISP)** is one of the five SOLID principles of object-oriented design. It states that no client should be forced to depend on methods it does not use. This principle encourages developers to create smaller, more specific interfaces rather than a large, general-purpose one. The idea is to avoid creating "fat" interfaces that require implementing unnecessary methods, thereby promoting a more modular and maintainable codebase.
 
-Here's a quick example in C#:
+### Key Points of the Interface Segregation Principle:
 
-### Scenario:
-Suppose you have an application that sends notifications. It initially only supports email notifications but might expand to other notification types, such as SMS or push notifications. Without DIP, the `NotificationService` would depend directly on the `EmailNotification` class, making it difficult to expand.
+1. **Smaller Interfaces**: Clients should have interfaces that are tailored to their specific needs. This means splitting larger interfaces into smaller ones so that implementing classes only need to be concerned with the methods that are relevant to them.
 
-#### Example without DIP:
+2. **Reduces Side Effects**: By adhering to ISP, changes to one interface or class are less likely to impact unrelated parts of the code, thereby reducing the chance of side effects.
+
+3. **Enhances Flexibility**: Smaller interfaces allow for easier refactoring and changes in the future. When a new feature is added or an existing one modified, it can often be done without affecting other parts of the system.
+
+4. **Encourages Composition Over Inheritance**: ISP promotes the use of composition, where classes can implement multiple interfaces to gain the required functionality, instead of inheriting from a single large class.
+
+### Example of ISP in C#
+
+Here’s a simple example to illustrate the Interface Segregation Principle:
+
+#### Without ISP:
 
 ```csharp
-public class EmailNotification
+public interface IAnimal
 {
-    public void Send(string message)
+    void Eat();
+    void Fly();
+    void Swim();
+}
+
+public class Bird : IAnimal
+{
+    public void Eat()
     {
-        Console.WriteLine($"Sending Email: {message}");
+        Console.WriteLine("Bird is eating.");
+    }
+
+    public void Fly()
+    {
+        Console.WriteLine("Bird is flying.");
+    }
+
+    public void Swim()  // Not applicable for Bird
+    {
+        throw new NotImplementedException();
     }
 }
 
-public class NotificationService
+public class Fish : IAnimal
 {
-    private readonly EmailNotification _emailNotification;
-
-    public NotificationService()
+    public void Eat()
     {
-        _emailNotification = new EmailNotification();
+        Console.WriteLine("Fish is eating.");
     }
 
-    public void Notify(string message)
+    public void Fly()  // Not applicable for Fish
     {
-        _emailNotification.Send(message);
+        throw new NotImplementedException();
+    }
+
+    public void Swim()
+    {
+        Console.WriteLine("Fish is swimming.");
     }
 }
 ```
 
-In this example, `NotificationService` depends directly on `EmailNotification`. If we want to add an SMS notification, we would have to modify `NotificationService`, which violates the open-closed principle and makes maintenance harder.
+In the above example, both `Bird` and `Fish` classes are forced to implement methods that do not apply to them, which is a violation of the ISP.
 
-#### Applying DIP:
-
-1. First, we create an abstraction for notifications:
+#### With ISP:
 
 ```csharp
-public interface INotification
+public interface IAnimal
 {
-    void Send(string message);
+    void Eat();
 }
-```
 
-2. Then, implement the `EmailNotification` class based on this interface:
-
-```csharp
-public class EmailNotification : INotification
+public interface IFlyable
 {
-    public void Send(string message)
+    void Fly();
+}
+
+public interface ISwimmable
+{
+    void Swim();
+}
+
+public class Bird : IAnimal, IFlyable
+{
+    public void Eat()
     {
-        Console.WriteLine($"Sending Email: {message}");
+        Console.WriteLine("Bird is eating.");
+    }
+
+    public void Fly()
+    {
+        Console.WriteLine("Bird is flying.");
+    }
+}
+
+public class Fish : IAnimal, ISwimmable
+{
+    public void Eat()
+    {
+        Console.WriteLine("Fish is eating.");
+    }
+
+    public void Swim()
+    {
+        Console.WriteLine("Fish is swimming.");
     }
 }
 ```
 
-3. Add another notification type, such as `SmsNotification`:
+In this revised example, the interfaces are split into smaller, more specific interfaces. The `Bird` class implements `IAnimal` and `IFlyable`, while the `Fish` class implements `IAnimal` and `ISwimmable`. This design allows each class to only implement methods that are relevant to its behavior, adhering to the Interface Segregation Principle.
 
-```csharp
-public class SmsNotification : INotification
-{
-    public void Send(string message)
-    {
-        Console.WriteLine($"Sending SMS: {message}");
-    }
-}
-```
+### Benefits of ISP:
 
-4. Now, update `NotificationService` to depend on the `INotification` interface, allowing us to inject any notification type:
+- **Improved Code Readability**: Smaller interfaces make it easier to understand what a class does.
+- **Easier Testing**: Unit tests can focus on specific interfaces, making tests more straightforward and easier to manage.
+- **Facilitates Maintenance**: Changes in one part of the system are less likely to impact other areas, making the overall system more stable and easier to maintain.
 
-```csharp
-public class NotificationService
-{
-    private readonly INotification _notification;
-
-    // Dependency Injection through constructor
-    public NotificationService(INotification notification)
-    {
-        _notification = notification;
-    }
-
-    public void Notify(string message)
-    {
-        _notification.Send(message);
-    }
-}
-```
-
-5. In `Main`, you can now decide which notification type to use:
-
-```csharp
-class Program
-{
-    static void Main(string[] args)
-    {
-        INotification emailNotification = new EmailNotification();
-        NotificationService service = new NotificationService(emailNotification);
-        service.Notify("Hello via Email!");
-
-        INotification smsNotification = new SmsNotification();
-        service = new NotificationService(smsNotification);
-        service.Notify("Hello via SMS!");
-    }
-}
-```
-
-### Explanation
-With this structure:
-- `NotificationService` no longer depends on a specific notification class but on the `INotification` interface.
-- Adding new notification types doesn’t require changes to `NotificationService`.
-- This approach adheres to DIP by depending on abstractions, enhancing flexibility and making the system easier to extend.
-
-By using DIP, you ensure that high-level policies are not tightly coupled with low-level implementations, making the code more modular and easier to maintain.
+In summary, the Interface Segregation Principle encourages creating smaller, specialized interfaces, which leads to better-designed software that's easier to maintain and extend. For further reading on the topic, you can refer to sources like [Martin Fowler's article on SOLID principles](https://martinfowler.com/articles/solid.html) and [the official Microsoft documentation on interface segregation](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/interface-segregation-principle).
