@@ -1,3 +1,15 @@
+# Multicast Delegate
+
+#### Discussed about :
+
+    Concepts of Multicast Delegate.
+
+---
+
+#### Example Code :
+
+```c#
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,3 +33,5 @@ namespace Learning
         }
     }
 }
+
+```

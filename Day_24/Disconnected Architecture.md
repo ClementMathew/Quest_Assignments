@@ -1,3 +1,15 @@
+# Disconnected Architecture
+
+#### Discussed about :
+
+    Structured Query Language using Disconnected Architecture.
+
+---
+
+#### Example Code :
+
+```c#
+
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -45,3 +57,5 @@ namespace Disconnected_Architecture
         }
     }
 }
+
+```

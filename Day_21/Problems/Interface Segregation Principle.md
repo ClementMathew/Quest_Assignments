@@ -1,3 +1,5 @@
+# Interface Segregation Principle
+
 The **Interface Segregation Principle (ISP)** is one of the five SOLID principles of object-oriented design. It states that no client should be forced to depend on methods it does not use. This principle encourages developers to create smaller, more specific interfaces rather than a large, general-purpose one. The idea is to avoid creating "fat" interfaces that require implementing unnecessary methods, thereby promoting a more modular and maintainable codebase.
 
 ### Key Points of the Interface Segregation Principle:
@@ -10,11 +12,7 @@ The **Interface Segregation Principle (ISP)** is one of the five SOLID principle
 
 4. **Encourages Composition Over Inheritance**: ISP promotes the use of composition, where classes can implement multiple interfaces to gain the required functionality, instead of inheriting from a single large class.
 
-### Example of ISP in C#
-
-Here’s a simple example to illustrate the Interface Segregation Principle:
-
-#### Without ISP:
+#### Without ISP :
 
 ```csharp
 public interface IAnimal
@@ -63,7 +61,7 @@ public class Fish : IAnimal
 
 In the above example, both `Bird` and `Fish` classes are forced to implement methods that do not apply to them, which is a violation of the ISP.
 
-#### With ISP:
+#### With ISP :
 
 ```csharp
 public interface IAnimal
@@ -115,5 +113,3 @@ In this revised example, the interfaces are split into smaller, more specific in
 - **Improved Code Readability**: Smaller interfaces make it easier to understand what a class does.
 - **Easier Testing**: Unit tests can focus on specific interfaces, making tests more straightforward and easier to manage.
 - **Facilitates Maintenance**: Changes in one part of the system are less likely to impact other areas, making the overall system more stable and easier to maintain.
-
-In summary, the Interface Segregation Principle encourages creating smaller, specialized interfaces, which leads to better-designed software that's easier to maintain and extend. For further reading on the topic, you can refer to sources like [Martin Fowler's article on SOLID principles](https://martinfowler.com/articles/solid.html) and [the official Microsoft documentation on interface segregation](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/interface-segregation-principle).

@@ -1,8 +1,11 @@
+# Dependency Inversion Principle
+
 The **Dependency Inversion Principle (DIP)** is one of the SOLID principles in software engineering, stating that high-level modules should not depend on low-level modules. Instead, both should depend on abstractions. In simpler terms, it encourages developers to use interfaces or abstract classes to decouple classes, making code more flexible and reducing tight coupling.
 
-Here's a quick example in C#:
+### Scenario :
 
-### Scenario:
+---
+
 Suppose you have an application that sends notifications. It initially only supports email notifications but might expand to other notification types, such as SMS or push notifications. Without DIP, the `NotificationService` would depend directly on the `EmailNotification` class, making it difficult to expand.
 
 #### Example without DIP:
@@ -34,7 +37,11 @@ public class NotificationService
 
 In this example, `NotificationService` depends directly on `EmailNotification`. If we want to add an SMS notification, we would have to modify `NotificationService`, which violates the open-closed principle and makes maintenance harder.
 
-#### Applying DIP:
+#### Applying DIP :
+
+---
+
+<br>
 
 1. First, we create an abstraction for notifications:
 
@@ -77,6 +84,7 @@ public class NotificationService
     private readonly INotification _notification;
 
     // Dependency Injection through constructor
+
     public NotificationService(INotification notification)
     {
         _notification = notification;
@@ -107,8 +115,10 @@ class Program
 }
 ```
 
-### Explanation
+### Benefits :
+
 With this structure:
+
 - `NotificationService` no longer depends on a specific notification class but on the `INotification` interface.
 - Adding new notification types doesn’t require changes to `NotificationService`.
 - This approach adheres to DIP by depending on abstractions, enhancing flexibility and making the system easier to extend.

@@ -1,3 +1,5 @@
+# Socket Programming
+
 Socket programming is a key technique used for enabling communication between processes over a network. Here’s a brief overview of the concepts involved:
 
 ### Key Concepts of Socket Programming
@@ -21,10 +23,3 @@ Socket programming is a key technique used for enabling communication between pr
    - **Closing**: Terminating the connection when done.
 
 5. **Error Handling**: Robust error handling is essential to manage potential issues during communication, such as connection failures or data transmission errors.
-
-### Example Usage
-In programming, a simple TCP server might use a combination of functions to accept a connection and echo received messages back to the client. This can be implemented in languages like Python, Java, or C++.
-
-For further reading on socket programming concepts and examples, consider visiting resources like [Beej's Guide to Network Programming](https://beej.us/guide/bgpd/) or [Python's Official Socket Documentation](https://docs.python.org/3/library/socket.html).
-
-This short overview captures the essence of socket programming, making it easier to understand how applications communicate over networks.

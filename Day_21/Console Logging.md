@@ -1,3 +1,15 @@
+# Console Logging
+
+#### Discussed about :
+
+    Concepts of Logging in Console.
+
+---
+
+#### Example Code :
+
+```c#
+
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -67,3 +79,5 @@ namespace Console_Logging
         }
     }
 }
+
+```

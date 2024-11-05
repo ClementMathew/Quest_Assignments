@@ -1,3 +1,15 @@
+# IEnumerable
+
+#### Discussed about :
+
+    Concepts of IEnumerable, ICollection, IList.
+
+---
+
+#### Example Code :
+
+```c#
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,3 +53,5 @@ namespace IEnumerable
         }
     }
 }
+
+```

@@ -1,3 +1,15 @@
+# Basic Logging
+
+#### Discussed about :
+
+    Concepts of Logging.
+
+---
+
+#### Example Code :
+
+```c#
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,3 +57,5 @@ namespace Basic_Logging
         }
     }
 }
+
+```

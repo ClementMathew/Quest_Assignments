@@ -1,3 +1,5 @@
+# Liskov Substitution Principle
+
 The **Liskov Substitution Principle (LSP)** is one of the five SOLID principles of object-oriented programming and design. Formulated by Barbara Liskov in 1987, the principle states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. In other words, if class `S` is a subclass of class `T`, then `T` should be able to be replaced with `S` without altering any of the desirable properties of the program.
 
 ### Key Points of LSP:
@@ -8,11 +10,7 @@ The **Liskov Substitution Principle (LSP)** is one of the five SOLID principles 
 
 3. **Invariants**: Any invariants (conditions that must always hold true) of the superclass should also be maintained by the subclass.
 
-### Example of LSP in C#
-
-Here’s an example to illustrate the Liskov Substitution Principle:
-
-#### Without LSP:
+#### Without LSP :
 
 ```csharp
 public class Bird
@@ -42,7 +40,7 @@ public class BirdWatcher
 
 In this example, the `Ostrich` class violates the Liskov Substitution Principle because it cannot perform the action of flying, which the superclass `Bird` promises. Passing an `Ostrich` object to a method expecting a `Bird` would lead to unexpected behavior (an exception being thrown).
 
-#### With LSP:
+#### With LSP :
 
 ```csharp
 public abstract class Bird
@@ -82,7 +80,3 @@ In the corrected example, we create an abstract `Bird` class and derive two subc
 - **Increased Reusability**: Properly adhering to LSP allows for greater code reuse and flexibility, as subclasses can be easily interchanged.
 - **Enhanced Maintainability**: By ensuring subclasses adhere to the expected behaviors of their superclasses, the system becomes more predictable and easier to maintain.
 - **Improved Testing**: Following LSP makes it easier to test subclasses, as they can be treated as instances of the superclass.
-
-### Resources for Further Reading:
-
-These resources will provide you with comprehensive insights into LSP and its application in software development.

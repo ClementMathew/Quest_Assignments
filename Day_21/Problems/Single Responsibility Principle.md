@@ -1,3 +1,5 @@
+# Single Responsibility Principle
+
 The **Single Responsibility Principle (SRP)** is one of the key concepts in object-oriented programming and is part of the SOLID principles. Proposed by Robert C. Martin (also known as Uncle Bob), the SRP states that a class should have only one reason to change, meaning it should only have one job or responsibility. This principle promotes a design where classes are focused and thus easier to understand, maintain, and test.
 
 ### Key Concepts of SRP
@@ -8,9 +10,7 @@ The **Single Responsibility Principle (SRP)** is one of the key concepts in obje
 
 3. **Maintainability**: By adhering to SRP, making changes becomes easier since modifications are localized to a single class, reducing the impact on other parts of the code.
 
-### Example of SRP in C#
-
-#### Without SRP:
+#### Without SRP :
 
 ```csharp
 public class User
@@ -32,7 +32,7 @@ public class User
 
 In this example, the `User` class has two responsibilities: managing user data and handling email notifications. This violates the SRP because changes in email functionality could affect the user data management.
 
-#### With SRP:
+#### With SRP :
 
 ```csharp
 public class User
@@ -65,11 +65,3 @@ In the refactored example, each class has a single responsibility. The `User` cl
 - **Improved Readability**: Code becomes easier to read and understand as each class has a clear purpose.
 - **Easier Maintenance**: Changes can be made to one part of the system without impacting others, reducing the likelihood of bugs.
 - **Enhanced Testability**: Smaller, focused classes are easier to test since they do less, allowing for more effective unit tests.
-
-### Resources for Further Reading:
-
-- [Martin Fowler's Blog on SOLID Principles](https://martinfowler.com/articles/solid.html#SingleResponsibilityPrinciple) – An overview of the SOLID principles, including detailed insights into SRP.
-- [Single Responsibility Principle in C#](https://dotnetcsharp.com/single-responsibility-principle-in-csharp/) – An article that provides a deeper understanding of SRP with examples specific to C#.
-- [Understanding the Single Responsibility Principle](https://www.codeproject.com/Articles/1131544/Understanding-the-Single-Responsibility-Principle) – A thorough explanation of the principle with practical examples and insights.
-
-These resources will give you more context and detailed examples of the Single Responsibility Principle in action.
