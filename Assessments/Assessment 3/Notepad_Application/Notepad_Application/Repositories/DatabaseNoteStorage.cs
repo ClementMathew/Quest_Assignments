@@ -44,6 +44,7 @@ namespace Notepad_Application.Repositories
             command.Parameters.AddWithValue("@UpdatedAt", note.UpdatedAt);
 
             command.ExecuteNonQuery();
+
             _connection.Close();
         }
 
@@ -51,7 +52,7 @@ namespace Notepad_Application.Repositories
         {
             ConnectionCheck();
 
-            var sql = "SELECT Title,Content,CreatedAt FROM Notes";
+            var sql = "SELECT NoteId, Title, Content, CreatedAt, UpdatedAt FROM Notes";
             var command = new SqlCommand(sql, _connection);
 
             var reader = command.ExecuteReader();
@@ -62,9 +63,11 @@ namespace Notepad_Application.Repositories
             {
                 notes.Add(new Note
                 {
+                    NoteId = (int)reader["NoteId"],
                     Title = (string)reader["Title"],
                     Content = (string)reader["Content"],
                     CreatedAt = (DateTime)reader["CreatedAt"],
+                    UpdatedAt = (DateTime)reader["UpdatedAt"],
                 });
             }
             _connection.Close();

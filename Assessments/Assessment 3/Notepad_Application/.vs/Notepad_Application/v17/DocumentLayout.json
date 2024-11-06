@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|d:\\windows_development\\dot_net_development\\notepad_application\\notepad_application\\services\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|solutionrelative:notepad_application\\services\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|d:\\windows_development\\dot_net_development\\notepad_application\\notepad_application\\services\\formatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|solutionrelative:notepad_application\\services\\formatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|d:\\windows_development\\dot_net_development\\notepad_application\\notepad_application\\notepadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|solutionrelative:notepad_application\\notepadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|d:\\windows_development\\dot_net_development\\notepad_application\\notepad_application\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|solutionrelative:notepad_application\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|d:\\windows_development\\dot_net_development\\notepad_application\\notepad_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|solutionrelative:notepad_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|d:\\windows_development\\dot_net_development\\notepad_application\\notepad_application\\interfaces\\inotestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|solutionrelative:notepad_application\\interfaces\\inotestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\notepad_application\\services\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|solutionrelative:notepad_application\\services\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\notepad_application\\repositories\\databasenotestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|solutionrelative:notepad_application\\repositories\\databasenotestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\notepad_application\\services\\formatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|solutionrelative:notepad_application\\services\\formatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\notepad_application\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|solutionrelative:notepad_application\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\notepad_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|solutionrelative:notepad_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\notepad_application\\interfaces\\inotestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A868CF6-CDF9-47FE-AF91-1DF693386B1D}|Notepad_Application\\Notepad_Application.csproj|solutionrelative:notepad_application\\interfaces\\inotestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,46 +46,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FormatService.cs",
               "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\Notepad_Application\\Services\\FormatService.cs",
               "RelativeDocumentMoniker": "Notepad_Application\\Services\\FormatService.cs",
               "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\Notepad_Application\\Services\\FormatService.cs",
               "RelativeToolTip": "Notepad_Application\\Services\\FormatService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T09:43:32.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoggingService.cs",
               "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\Notepad_Application\\Services\\LoggingService.cs",
               "RelativeDocumentMoniker": "Notepad_Application\\Services\\LoggingService.cs",
               "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\Notepad_Application\\Services\\LoggingService.cs",
               "RelativeToolTip": "Notepad_Application\\Services\\LoggingService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T09:42:07.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserManager.cs",
               "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\Notepad_Application\\UserManager.cs",
               "RelativeDocumentMoniker": "Notepad_Application\\UserManager.cs",
               "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\Notepad_Application\\UserManager.cs",
               "RelativeToolTip": "Notepad_Application\\UserManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAIwDcAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T09:34:16.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T09:34:16.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "INoteStorage.cs",
               "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\Notepad_Application\\Interfaces\\INoteStorage.cs",
               "RelativeDocumentMoniker": "Notepad_Application\\Interfaces\\INoteStorage.cs",
@@ -93,12 +92,11 @@
               "RelativeToolTip": "Notepad_Application\\Interfaces\\INoteStorage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T09:32:59.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T09:32:59.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\Notepad_Application\\Program.cs",
               "RelativeDocumentMoniker": "Notepad_Application\\Program.cs",
@@ -106,31 +104,30 @@
               "RelativeToolTip": "Notepad_Application\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T09:11:27.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T09:11:27.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "NotepadManager.cs",
               "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\Notepad_Application\\NotepadManager.cs",
               "RelativeDocumentMoniker": "Notepad_Application\\NotepadManager.cs",
               "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\Notepad_Application\\NotepadManager.cs",
               "RelativeToolTip": "Notepad_Application\\NotepadManager.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAswCIAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAmwJcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T04:03:13.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "DatabaseNoteStorage.cs",
               "DocumentMoniker": "D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\Notepad_Application\\Repositories\\DatabaseNoteStorage.cs",
               "RelativeDocumentMoniker": "Notepad_Application\\Repositories\\DatabaseNoteStorage.cs",
               "ToolTip": "D:\\Windows_Development\\Dot_Net_Development\\Notepad_Application\\Notepad_Application\\Repositories\\DatabaseNoteStorage.cs",
               "RelativeToolTip": "Notepad_Application\\Repositories\\DatabaseNoteStorage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAzwEoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T04:15:00.784Z",
               "EditorCaption": ""

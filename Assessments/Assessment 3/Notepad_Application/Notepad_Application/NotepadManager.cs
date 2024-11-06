@@ -58,9 +58,12 @@ namespace Notepad_Application
             {
                 var notes = _noteStorage.ViewAllNotes();
 
+                Console.WriteLine("\n--- Notes ---\n");
+
                 foreach (var note in notes)
                 {
-                    Console.WriteLine($"{note.Title} - {note.Content} - {note.CreatedAt}");
+                    var content = FormatService.FormatText(note.Content);
+                    Console.WriteLine($"{note.NoteId} - {note.Title} - {content} - {note.CreatedAt} - {note.UpdatedAt}");
                 }
             }
             catch (Exception e)
@@ -74,10 +77,41 @@ namespace Notepad_Application
         {
             try
             {
+                var notes = _noteStorage.ViewAllNotes();
+
+                Console.WriteLine("\n--- Notes ---\n");
+
+                foreach (var note in notes)
+                {
+                    var contentView = FormatService.FormatText(note.Content);
+                    Console.WriteLine($"{note.NoteId} - {note.Title} - {contentView}");
+                }
+
                 Console.Write("\nEnter Note Id : ");
                 int noteId = int.Parse(Console.ReadLine());
 
-                Console.Write("Enter new Title : ");
+                Console.WriteLine($"\n--- Note - {noteId} ---\n");
+
+                bool noteFound = false;
+
+                foreach (var note in notes)
+                {
+                    if (noteId == note.NoteId)
+                    {
+                        var contentUpdate = FormatService.FormatText(note.Content);
+                        Console.WriteLine($"{note.Title} - {contentUpdate}");
+                        noteFound = true;
+                        break;
+                    }
+                }
+
+                if (!noteFound)
+                {
+                    Console.WriteLine("No such note...");
+                    return;
+                }
+
+                Console.Write("\nEnter new Title : ");
                 string title = Console.ReadLine();
 
                 Console.Write("Enter new Content : ");
@@ -97,10 +131,33 @@ namespace Notepad_Application
         {
             try
             {
+                var notes = _noteStorage.ViewAllNotes();
+
+                Console.WriteLine("\n--- Notes ---\n");
+
+                foreach (var note in notes)
+                {
+                    var contentView = FormatService.FormatText(note.Content);
+                    Console.WriteLine($"{note.NoteId} - {note.Title} - {contentView}");
+                }
+
                 Console.Write("\nEnter Note Id : ");
                 int noteId = int.Parse(Console.ReadLine());
 
-                _noteStorage.DeleteNote(noteId);
+                Console.WriteLine("\nAre you sure...?\n1. Yes\n2. No");
+
+                Console.Write("\nEnter option : ");
+                int choice = int.Parse(Console.ReadLine());
+
+                if (choice == 1)
+                {
+                    _noteStorage.DeleteNote(noteId);
+                }
+                else
+                {
+                    return;
+                }
+
             }
             catch (Exception e)
             {
