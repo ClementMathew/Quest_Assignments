@@ -1,0 +1,11 @@
+D:\Windows_Development\Dot_Net_Development\Notepad_Application\Notepad_Application\obj\Debug\Notepad_Application.csproj.AssemblyReference.cache
+D:\Windows_Development\Dot_Net_Development\Notepad_Application\Notepad_Application\obj\Debug\Notepad_Application.csproj.CoreCompileInputs.cache
+D:\Windows_Development\Dot_Net_Development\Notepad_Application\Notepad_Application\bin\Debug\Notepad_Application.exe.config
+D:\Windows_Development\Dot_Net_Development\Notepad_Application\Notepad_Application\bin\Debug\Notepad_Application.exe
+D:\Windows_Development\Dot_Net_Development\Notepad_Application\Notepad_Application\bin\Debug\Notepad_Application.pdb
+D:\Windows_Development\Dot_Net_Development\Notepad_Application\Notepad_Application\bin\Debug\log4net.dll
+D:\Windows_Development\Dot_Net_Development\Notepad_Application\Notepad_Application\bin\Debug\log4net.pdb
+D:\Windows_Development\Dot_Net_Development\Notepad_Application\Notepad_Application\bin\Debug\log4net.xml
+D:\Windows_Development\Dot_Net_Development\Notepad_Application\Notepad_Application\obj\Debug\Notepad_.F2FFC795.Up2Date
+D:\Windows_Development\Dot_Net_Development\Notepad_Application\Notepad_Application\obj\Debug\Notepad_Application.exe
+D:\Windows_Development\Dot_Net_Development\Notepad_Application\Notepad_Application\obj\Debug\Notepad_Application.pdb
